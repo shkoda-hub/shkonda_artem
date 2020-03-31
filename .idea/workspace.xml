@@ -1,8 +1,146 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="83bd7d83-2904-48b2-a3b6-82d9c9a8ca87" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1ZUdJryiLNOw7nsrf9yjNFb5NZW" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\artem_000\Documents\QA_Automation\shkonda_project\src\main\java\resources" />
+      <recent name="C:\Users\artem_000\Documents\QA_Automation\shkonda_project" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.LoginTest.dropDown">
+    <configuration name="LoginTest.dropDown" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="shkonda_project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="loginTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="loginTests" />
+      <option name="MAIN_CLASS_NAME" value="loginTests.LoginTest" />
+      <option name="METHOD_NAME" value="dropDown" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginTest.validLogin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="shkonda_project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="loginTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="loginTests" />
+      <option name="MAIN_CLASS_NAME" value="loginTests.LoginTest" />
+      <option name="METHOD_NAME" value="validLogin" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.LoginTest.dropDown" />
+        <item itemvalue="JUnit.LoginTest.validLogin" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="83bd7d83-2904-48b2-a3b6-82d9c9a8ca87" name="Default Changelist" comment="" />
+      <created>1585382448659</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585382448659</updated>
+    </task>
+    <task id="LOCAL-00001" summary="pages">
+      <created>1585671762242</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1585671762242</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="pages" />
+    <option name="LAST_COMMIT_MESSAGE" value="pages" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="352" y="7" key="CommitChangelistDialog2" timestamp="1585671761002">
+      <screen x="0" y="0" width="1536" height="826" />
+    </state>
+    <state x="352" y="7" key="CommitChangelistDialog2/0.0.1536.826@0.0.1536.826" timestamp="1585671761002" />
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1585489535828">
+      <screen x="0" y="0" width="1536" height="826" />
+    </state>
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.826@0.0.1536.826" timestamp="1585489535828" />
+    <state width="1492" height="206" key="GridCell.Tab.0.bottom" timestamp="1585498129201">
+      <screen x="0" y="0" width="1536" height="826" />
+    </state>
+    <state width="1492" height="206" key="GridCell.Tab.0.bottom/0.0.1536.826@0.0.1536.826" timestamp="1585498129201" />
+    <state width="1492" height="206" key="GridCell.Tab.0.center" timestamp="1585498129201">
+      <screen x="0" y="0" width="1536" height="826" />
+    </state>
+    <state width="1492" height="206" key="GridCell.Tab.0.center/0.0.1536.826@0.0.1536.826" timestamp="1585498129201" />
+    <state width="1492" height="206" key="GridCell.Tab.0.left" timestamp="1585498129201">
+      <screen x="0" y="0" width="1536" height="826" />
+    </state>
+    <state width="1492" height="206" key="GridCell.Tab.0.left/0.0.1536.826@0.0.1536.826" timestamp="1585498129201" />
+    <state width="1492" height="206" key="GridCell.Tab.0.right" timestamp="1585498129201">
+      <screen x="0" y="0" width="1536" height="826" />
+    </state>
+    <state width="1492" height="206" key="GridCell.Tab.0.right/0.0.1536.826@0.0.1536.826" timestamp="1585498129201" />
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1585671624388">
+      <screen x="0" y="0" width="1536" height="826" />
+    </state>
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.826@0.0.1536.826" timestamp="1585671624388" />
+    <state x="578" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1585588349967">
+      <screen x="0" y="0" width="1536" height="826" />
+    </state>
+    <state x="578" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.826@0.0.1536.826" timestamp="1585588349967" />
+    <state x="209" y="108" key="new project wizard" timestamp="1585489488357">
+      <screen x="0" y="0" width="1536" height="826" />
+    </state>
+    <state x="209" y="108" key="new project wizard/0.0.1536.826@0.0.1536.826" timestamp="1585489488357" />
+    <state x="425" y="182" key="run.anything.popup" timestamp="1585501361017">
+      <screen x="0" y="0" width="1536" height="826" />
+    </state>
+    <state x="425" y="182" key="run.anything.popup/0.0.1536.826@0.0.1536.826" timestamp="1585501361017" />
   </component>
 </project>
