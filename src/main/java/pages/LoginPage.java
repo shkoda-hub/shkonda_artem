@@ -6,12 +6,15 @@ import org.openqa.selenium.WebDriver;
 import org.apache.log4j.Logger;
 
 public class LoginPage {
+
     protected WebDriver webDriver;
     protected Logger logger = Logger.getLogger(getClass());
     protected ActionWithWebElements actionWithWebElements;
+
     By inputLoginName = By.name("_username");
     By inputPasswordName = By.name("_password");
     By inputButtonXpath = By.xpath("//button[@type = 'submit']");
+
     String url = "http://v3.test.itpmgroup.com";
 
     public LoginPage(WebDriver webDriver){

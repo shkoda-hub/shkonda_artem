@@ -13,9 +13,6 @@ public class ApparatAddedPage {
     protected Logger logger = Logger.getLogger(getClass());
     protected ActionWithWebElements actionWithWebElements;
 
-    String number = "0000111001";
-    String comment = "New apparat SN:0000111001";
-
     By dictionaryList = By.id("dictionary");
     By apparatDictionary = By.id("apparat");
     By addButton = By.xpath("//div[@class = 'box-tools']");
@@ -27,10 +24,12 @@ public class ApparatAddedPage {
     By newApparatComment = By.xpath("//td[text() = 'New apparat SN:0000111001']");
     By deleteApparatButton = By.name("delete");
 
+    String number = "0000111001";
+    String comment = "New apparat SN:0000111001";
+
     public ApparatAddedPage (WebDriver webDriver){
         this.webDriver = webDriver;
         actionWithWebElements = new ActionWithWebElements(webDriver);
-        loginPage = new LoginPage(webDriver);
     }
 
     /**
@@ -38,7 +37,7 @@ public class ApparatAddedPage {
      * Переход на страницу словаря Аппарат
      */
     public void openApparatPage(){
-        actionWithWebElements.openDictionaryPage(dictionaryList, apparatDictionary);
+        actionWithWebElements.openDictionaryPage(apparatDictionary);
         actionWithWebElements.isElementDisplay(titleApparatGrid);
     }
 
@@ -90,19 +89,14 @@ public class ApparatAddedPage {
      */
     public void createNewApparat(){
         openApparatPage();
-        if(actionWithWebElements.isElementDisplay(newApparatComment) == true && actionWithWebElements.isElementDisplay(newApparatNumber) ==true ) {
-            deleteApparat();
-        }
-        else {
-            openAddedApparatForm();
-            inputApparatNumber();
-            inputApparatComment();
-            clickCreateButton();
-            actionWithWebElements.isElementDisplay(newApparatNumber);
-            actionWithWebElements.isElementDisplay(newApparatComment);
-            deleteApparat();
-        }
+        openAddedApparatForm();
+        inputApparatNumber();
+        inputApparatComment();
+        clickCreateButton();
+        actionWithWebElements.isElementDisplay(newApparatNumber);
+        actionWithWebElements.isElementDisplay(newApparatComment);
     }
+
 
 
 

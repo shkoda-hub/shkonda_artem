@@ -11,12 +11,6 @@ public class WorkersAddedPage {
     protected Logger logger = Logger.getLogger(getClass());
     protected ActionWithWebElements actionWithWebElements;
 
-    String surname = "Shkonda";
-    String name = "Artem";
-    String middleName = "Vladimirovich";
-    String phone = "+380990123456";
-
-    By dictionaryDropDown = By.id("dictionary");
     By workersDictionary = By.id("workers");
     By addButton = By.xpath("//div[@class = 'box-tools']");
     By titleWorkersGrid = By.xpath("//h3[text() = 'Список сотрудников']");
@@ -31,17 +25,21 @@ public class WorkersAddedPage {
     By newWorkerMiddleName = By.xpath("//td[text() = 'Vladimirovich'");
     By newWorkerPhone = By.xpath("//td[text() = '+380990123456'");
 
+    String surname = "Shkonda";
+    String name = "Artem";
+    String middleName = "Vladimirovich";
+    String phone = "+380990123456";
+
     public WorkersAddedPage (WebDriver webDriver){
         this.webDriver = webDriver;
         actionWithWebElements = new ActionWithWebElements(webDriver);
-        LoginPage loginPage = new LoginPage(webDriver);
     }
 
     /**
      * Переход на страницу словаря Сотрудники
      */
     public void openWorkersPage(){
-        actionWithWebElements.openDictionaryPage(dictionaryDropDown, workersDictionary);
+        actionWithWebElements.openDictionaryPage(workersDictionary);
         actionWithWebElements.isElementDisplay(titleWorkersGrid);
     }
 
