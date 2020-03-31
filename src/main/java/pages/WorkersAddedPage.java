@@ -113,7 +113,6 @@ public class WorkersAddedPage {
             actionWithWebElements.isElementDisplay(newWorkerName);
             actionWithWebElements.isElementDisplay(newWorkerMiddleName);
             actionWithWebElements.isElementDisplay(newWorkerPhone);
-            deleteWorker();
         }
 
 }
