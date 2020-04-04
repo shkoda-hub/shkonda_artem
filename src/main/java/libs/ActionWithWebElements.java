@@ -4,6 +4,8 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
 import org.apache.log4j.Logger;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.Select;
 
 public class ActionWithWebElements {
@@ -11,16 +13,18 @@ public class ActionWithWebElements {
     WebDriver webDriver;
     Logger logger = Logger.getLogger(getClass());
 
-    By dictionaryList = By.id("dictionary");
+    //By dictionaryList = By.id("dictionary");
+    @FindBy(id = "dictionary")
+    private WebElement dictionaryList;
 
     public ActionWithWebElements (WebDriver webDriver){
         this.webDriver = webDriver;
     }
 
-    public void enterTextToTextField(By element, String text){
+    public void enterTextToTextField(WebElement element, String text){
         try {
-            webDriver.findElement(element).clear();
-            webDriver.findElement(element).sendKeys(text);
+            element.clear();
+            element.sendKeys(text);
             logger.info("");
         }
         catch (Exception e){
@@ -30,9 +34,9 @@ public class ActionWithWebElements {
         }
 
     }
-    public void clickButton(By element){
+    public void clickButton(WebElement element){
         try{
-            webDriver.findElement(element).click();
+            element.click();
             logger.info("");
         }
         catch (Exception e){
@@ -41,9 +45,9 @@ public class ActionWithWebElements {
         }
     }
 
-    public boolean isElementDisplay(By element){
+    public boolean isElementDisplay(WebElement element){
         try {
-            return webDriver.findElement(element).isDisplayed();
+            return element.isDisplayed();
         }
         catch (Exception e){
             e.printStackTrace();
@@ -52,12 +56,23 @@ public class ActionWithWebElements {
         }
     }
 
-    public void setCheckBox (By element, boolean state){
+    public boolean  isElementEnable(WebElement element){
         try{
-            if(webDriver.findElement(element).isSelected()==state){
+            return element.isEnabled();
+        }
+        catch (Exception e){
+            e.printStackTrace();
+            logger.error("");
+            return false;
+        }
+    }
+
+    public void setCheckBox (WebElement element, boolean state){
+        try{
+            if(element.isSelected()==state){
             }
             else {
-                webDriver.findElement(element).click();
+                element.click();
             }
             logger.info("The check box is "+state);
         }
@@ -67,8 +82,8 @@ public class ActionWithWebElements {
         }
     }
 
-    public void selectElementFromDD(By element, String itemName){
-        Select dropDownValue = new Select(webDriver.findElement(element));
+    public void selectElementFromDD(WebElement element, String itemName){
+        Select dropDownValue = new Select(element);
         try {
             dropDownValue.selectByVisibleText(itemName);
         }
@@ -79,10 +94,10 @@ public class ActionWithWebElements {
 
     }
 
-    public void openDictionaryPage(By dictionary){
+    public void openDictionaryPage(WebElement dictionary){
         try {
-            webDriver.findElement(dictionaryList).click();
-            webDriver.findElement(dictionary).click();
+            dictionaryList.click();
+            dictionary.click();
             logger.info("");
         }
         catch (Exception e){
@@ -90,13 +105,5 @@ public class ActionWithWebElements {
             logger.error("");
         }
     }
-
-
-
-
-
-
-
-
 
 }

@@ -1,110 +1,85 @@
 package pages;
 
-import libs.ActionWithWebElements;
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import parentPage.ParentPage;
 
-import java.nio.file.WatchEvent;
-import org.apache.log4j.Logger;
+public class ApparatAddedPage extends ParentPage {
 
-public class ApparatAddedPage {
-    protected LoginPage loginPage;
-    protected WebDriver webDriver;
-    protected Logger logger = Logger.getLogger(getClass());
-    protected ActionWithWebElements actionWithWebElements;
+    @FindBy(id = "apparat")
+    private WebElement apparatDictionary;
 
-    By dictionaryList = By.id("dictionary");
-    By apparatDictionary = By.id("apparat");
-    By addButton = By.xpath("//div[@class = 'box-tools']");
-    By titleApparatGrid = By.xpath("//h3[text() = 'Список аппаратов']");
-    By apparatNumberField = By.id("apparat_apparatNumber");
-    By apparatCommentField = By.id("apparat_apparatComment");
-    By createApparatButton = By.name("add");
-    By newApparatNumber = By.xpath("//td[text() = '0000111001']");
-    By newApparatComment = By.xpath("//td[text() = 'New apparat SN:0000111001']");
-    By deleteApparatButton = By.name("delete");
+    @FindBy(xpath = "//div[@class = 'box-tools']")
+    private WebElement addButton;
 
-    String number = "0000111001";
+    @FindBy(xpath = "//h3[text() = 'Список аппаратов']")
+    private WebElement titleApparatGrid;
+
+    @FindBy(id = "apparat_apparatNumber")
+    private WebElement apparatNumberField;
+
+    @FindBy(id = "apparat_apparatComment")
+    private WebElement apparatCommentField;
+
+    @FindBy(name = "add")
+    private WebElement createApparatButton;
+
+    @FindBy(xpath = "//td[text() = '111001']")
+    private WebElement addedApparatNumber;
+
+    @FindBy(xpath = "//td[text() = 'New apparat SN:0000111001']")
+    private WebElement addedApparatComment;
+
+    @FindBy(id = "dictionary")
+    private WebElement dictionaryList;
+
+    String number = "111001";
     String comment = "New apparat SN:0000111001";
 
-    public ApparatAddedPage (WebDriver webDriver){
-        this.webDriver = webDriver;
-        actionWithWebElements = new ActionWithWebElements(webDriver);
+    public ApparatAddedPage(WebDriver webDriver) {
+        super(webDriver);
     }
 
-    /**
-     *
-     * Переход на страницу словаря Аппарат
-     */
-    public void openApparatPage(){
+    /*public void openApparatPage(){
         actionWithWebElements.openDictionaryPage(apparatDictionary);
-        actionWithWebElements.isElementDisplay(titleApparatGrid);
     }
 
-    /**
-     * Открытие формы создания новой записи Аппарата
      */
-    public void openAddedApparatForm(){
+    /*public void openDictionaryList(){
+        actionWithWebElements.clickButton(dictionaryList);
+    }
+
+     */
+
+    public void openApparatPage(){
+        actionWithWebElements.clickButton(dictionaryList);
+        actionWithWebElements.clickButton(apparatDictionary);
+    }
+
+    public void openApparatAddedForm(){
         actionWithWebElements.clickButton(addButton);
-        actionWithWebElements.isElementDisplay(apparatNumberField);
-        actionWithWebElements.isElementDisplay(apparatCommentField);
     }
 
-    /**
-     * Запись номера аппарата
-     * @param
-     */
     public void inputApparatNumber(){
         actionWithWebElements.enterTextToTextField(apparatNumberField, number);
     }
 
-    /**
-     * Запись комментария к аппарату
-     * @param
-     */
     public void inputApparatComment(){
         actionWithWebElements.enterTextToTextField(apparatCommentField, comment);
 
     }
 
-    /**
-     * нажатие на кнопку Создать
-     */
     public void clickCreateButton(){
         actionWithWebElements.clickButton(createApparatButton);
     }
 
-    /**
-     * удаление записи Аппарата
-     * @param
-     */
-    public void deleteApparat(){
-        actionWithWebElements.clickButton(newApparatComment);
-        actionWithWebElements.clickButton(deleteApparatButton);
-
+    public boolean checkNewApparatNumber(){
+        return actionWithWebElements.isElementDisplay(addedApparatNumber);
     }
-
-    /**
-     * создание нового Аппарата
-     */
-    public void createNewApparat(){
-        openApparatPage();
-        openAddedApparatForm();
-        inputApparatNumber();
-        inputApparatComment();
-        clickCreateButton();
-        actionWithWebElements.isElementDisplay(newApparatNumber);
-        actionWithWebElements.isElementDisplay(newApparatComment);
+    public boolean checkNewApparatComment(){
+        return actionWithWebElements.isElementDisplay(addedApparatComment);
     }
-
-
-
-
-
-
-
-
-
 
 
 
