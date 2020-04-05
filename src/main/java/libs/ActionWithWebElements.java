@@ -14,8 +14,6 @@ public class ActionWithWebElements {
     Logger logger = Logger.getLogger(getClass());
 
     //By dictionaryList = By.id("dictionary");
-    @FindBy(id = "dictionary")
-    private WebElement dictionaryList;
 
     public ActionWithWebElements (WebDriver webDriver){
         this.webDriver = webDriver;
@@ -94,7 +92,7 @@ public class ActionWithWebElements {
 
     }
 
-    public void openDictionaryPage(WebElement dictionary){
+    public void openDictionaryPage(WebElement dictionaryList, WebElement dictionary){
         try {
             dictionaryList.click();
             dictionary.click();

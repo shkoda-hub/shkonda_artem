@@ -10,6 +10,9 @@ public class ApparatAddedPage extends ParentPage {
     @FindBy(id = "apparat")
     private WebElement apparatDictionary;
 
+    @FindBy(id = "dictionary")
+    private WebElement dictionaryList;
+
     @FindBy(xpath = "//div[@class = 'box-tools']")
     private WebElement addButton;
 
@@ -31,8 +34,7 @@ public class ApparatAddedPage extends ParentPage {
     @FindBy(xpath = "//td[text() = 'New apparat SN:0000111001']")
     private WebElement addedApparatComment;
 
-    @FindBy(id = "dictionary")
-    private WebElement dictionaryList;
+
 
     String number = "111001";
     String comment = "New apparat SN:0000111001";
@@ -41,20 +43,8 @@ public class ApparatAddedPage extends ParentPage {
         super(webDriver);
     }
 
-    /*public void openApparatPage(){
-        actionWithWebElements.openDictionaryPage(apparatDictionary);
-    }
-
-     */
-    /*public void openDictionaryList(){
-        actionWithWebElements.clickButton(dictionaryList);
-    }
-
-     */
-
     public void openApparatPage(){
-        actionWithWebElements.clickButton(dictionaryList);
-        actionWithWebElements.clickButton(apparatDictionary);
+        actionWithWebElements.openDictionaryPage(dictionaryList, apparatDictionary);
     }
 
     public void openApparatAddedForm(){
@@ -67,7 +57,6 @@ public class ApparatAddedPage extends ParentPage {
 
     public void inputApparatComment(){
         actionWithWebElements.enterTextToTextField(apparatCommentField, comment);
-
     }
 
     public void clickCreateButton(){
@@ -77,9 +66,12 @@ public class ApparatAddedPage extends ParentPage {
     public boolean checkNewApparatNumber(){
         return actionWithWebElements.isElementDisplay(addedApparatNumber);
     }
+
     public boolean checkNewApparatComment(){
         return actionWithWebElements.isElementDisplay(addedApparatComment);
     }
+
+
 
 
 

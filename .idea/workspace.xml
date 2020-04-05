@@ -2,47 +2,36 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="83bd7d83-2904-48b2-a3b6-82d9c9a8ca87" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/config.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/libs/ConfigClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/parentPage/ParentPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/apparatAddedTests/ApparatAddedWithPageObjectTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/loginTests/LoginWithPageObjectTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/loginTests/LoginWithPageObjectUpperLogin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/loginTests/LoginWithPageObjectWrongLogin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/loginTests/LoginWithPageObjectWrongPassword.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/parentTests/AbstractParentTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/shkonda_project.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/libs/ConfigClass.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/pages/HomePage.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/parentPage/ParentPage.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/META-INF/shkonda_project.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/apparatAddedTests/ApparatAddedWithPageObjectTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/loginTests/LoginWithPageObjectTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/loginTests/LoginWithPageObjectUpperLogin.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/loginTests/LoginWithPageObjectWrongLogin.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/loginTests/LoginWithPageObjectWrongPassword.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/parentTests/AbstractParentTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_11.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_18.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_3_14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/data/testData.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/data/testDataSuit.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/libs/DataBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/libs/ExcelDriver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/libs/SpreadsheetData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/libs/Utils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/SpareAddedPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/SpareTypesAddedPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/WorkersAddedPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/loginTests/LoginTestWithPageObjectWithExcel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/loginTests/UnValidLoginTestWithPageObjectWithExcel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/spareAddedTest/SpareAddedWithPageObjectTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/spareTypeAddedTests/SpareTypeAddedWithPageObjectTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/suits/LoginSuit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testDB/TestDataBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/workersAddedTests/WorkersAddedWithPageObjectTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shkonda_project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/shkonda_project.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/libs/ActionWithWebElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/libs/ActionWithWebElements.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pages/ApparatAddedPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/ApparatAddedPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/ProvidersAddedPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/SpareAddedPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/SpareTypeAddedPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/TypeDealsAddedPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/WorkersAddedPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/apparatAddedTests/ApparatAddedTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/loginTests/LoginTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/parentPage/ParentPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/parentPage/ParentPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/parentTests/AbstractParentTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/parentTests/AbstractParentTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/libs/ActionWithWebElements.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/libs/ActionWithWebElements.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/pages/ApparatAddedPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/ApparatAddedPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pages/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/LoginPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/apparatAddedTests/ApparatAddedTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/loginTests/LoginTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/parentPage/ParentPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/parentPage/ParentPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/apparatAddedTests/ApparatAddedWithPageObjectTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/apparatAddedTests/ApparatAddedWithPageObjectTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/parentTests/AbstractParentTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/parentTests/AbstractParentTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,50 +57,38 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/shkonda_artem-pages/shkonda_artem-pages" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/libs" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\artem_000\Documents\QA_Automation\shkonda_project\src\main\java\libs" />
+      <recent name="C:\Users\artem_000\Documents\QA_Automation\shkonda_project\src\test\java\testDB" />
+      <recent name="C:\Users\artem_000\Documents\QA_Automation\shkonda_project\src\test\java\loginTests" />
+      <recent name="C:\Users\artem_000\Documents\QA_Automation\shkonda_project\src\main\java\data" />
       <recent name="C:\Users\artem_000\Documents\QA_Automation\shkonda_project\src" />
-      <recent name="C:\Users\artem_000\Documents\QA_Automation\shkonda_project\src\main\java\resources" />
-      <recent name="C:\Users\artem_000\Documents\QA_Automation\shkonda_project" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ApparatAddedWithPageObjectTest">
-    <configuration name="ApparatAddedWithPageObjectTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.SpareAddedWithPageObjectTest (1)">
+    <configuration name="LoginSuit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="shkonda_project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="apparatAddedTests.*" />
+          <option name="PATTERN" value="suits.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="apparatAddedTests" />
-      <option name="MAIN_CLASS_NAME" value="apparatAddedTests.ApparatAddedWithPageObjectTest" />
+      <option name="PACKAGE_NAME" value="suits" />
+      <option name="MAIN_CLASS_NAME" value="suits.LoginSuit" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ApparatAddedWithPageObjectTest.addedApparat" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LoginTestWithPageObjectWithExcel" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="shkonda_project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="apparatAddedTests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="apparatAddedTests" />
-      <option name="MAIN_CLASS_NAME" value="apparatAddedTests.ApparatAddedWithPageObjectTest" />
-      <option name="METHOD_NAME" value="addedApparat" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LoginWithPageObjectTest.validLogin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="shkonda_project" />
-      <useClassPathOnly />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="loginTests.*" />
@@ -119,42 +96,89 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="loginTests" />
-      <option name="MAIN_CLASS_NAME" value="loginTests.LoginWithPageObjectTest" />
-      <option name="METHOD_NAME" value="validLogin" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="loginTests.LoginTestWithPageObjectWithExcel" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpareAddedWithPageObjectTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="shkonda_project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="spareAddedTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="spareAddedTest" />
+      <option name="MAIN_CLASS_NAME" value="spareAddedTest.SpareAddedWithPageObjectTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpareAddedWithPageObjectTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="shkonda_project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="spareAddedTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="spareAddedTests" />
+      <option name="MAIN_CLASS_NAME" value="spareAddedTests.SpareAddedWithPageObjectTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpareAddedWithPageObjectTest" type="JUnit" factoryName="JUnit" temporary="true">
+      <module name="shkonda_project" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="spareAddedTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="spareAddedTest" />
+      <option name="MAIN_CLASS_NAME" value="spareAddedTest.SpareAddedWithPageObjectTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="PARAMETERS" value="" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginWithPageObjectUpperLogin.validLogin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestDataBase" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="shkonda_project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="loginTests.*" />
+          <option name="PATTERN" value="testDB.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="loginTests" />
-      <option name="MAIN_CLASS_NAME" value="loginTests.LoginWithPageObjectUpperLogin" />
-      <option name="METHOD_NAME" value="validLogin" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="testDB" />
+      <option name="MAIN_CLASS_NAME" value="testDB.TestDataBase" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.LoginWithPageObjectTest.validLogin" />
-      <item itemvalue="JUnit.LoginWithPageObjectUpperLogin.validLogin" />
-      <item itemvalue="JUnit.ApparatAddedWithPageObjectTest" />
-      <item itemvalue="JUnit.ApparatAddedWithPageObjectTest.addedApparat" />
+      <item itemvalue="JUnit.SpareAddedWithPageObjectTest" />
+      <item itemvalue="JUnit.LoginTestWithPageObjectWithExcel" />
+      <item itemvalue="JUnit.TestDataBase" />
+      <item itemvalue="JUnit.LoginSuit" />
+      <item itemvalue="JUnit.SpareAddedWithPageObjectTest (1)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ApparatAddedWithPageObjectTest" />
-        <item itemvalue="JUnit.ApparatAddedWithPageObjectTest.addedApparat" />
-        <item itemvalue="JUnit.LoginWithPageObjectUpperLogin.validLogin" />
-        <item itemvalue="JUnit.LoginWithPageObjectTest.validLogin" />
+        <item itemvalue="JUnit.SpareAddedWithPageObjectTest (1)" />
+        <item itemvalue="JUnit.LoginSuit" />
+        <item itemvalue="JUnit.TestDataBase" />
+        <item itemvalue="JUnit.LoginTestWithPageObjectWithExcel" />
+        <item itemvalue="JUnit.SpareAddedWithPageObjectTest" />
       </list>
     </recent_temporary>
   </component>
@@ -188,10 +212,22 @@
       <screen x="0" y="0" width="1536" height="826" />
     </state>
     <state x="607" y="102" key="#LoginWithPageObjectTest./0.0.1536.826@0.0.1536.826" timestamp="1585993086821" />
-    <state x="356" y="57" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585993047311">
+    <state x="499" y="167" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1586031040871">
       <screen x="0" y="0" width="1536" height="826" />
     </state>
-    <state x="356" y="57" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.826@0.0.1536.826" timestamp="1585993047311" />
+    <state x="499" y="167" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1536.826@0.0.1536.826" timestamp="1586031040871" />
+    <state x="356" y="57" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586077044556">
+      <screen x="0" y="0" width="1536" height="826" />
+    </state>
+    <state x="356" y="57" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.826@0.0.1536.826" timestamp="1586077044556" />
+    <state x="93" y="93" width="1350" height="640" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1586016756393">
+      <screen x="0" y="0" width="1536" height="826" />
+    </state>
+    <state x="93" y="93" width="1350" height="640" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1536.826@0.0.1536.826" timestamp="1586016756393" />
+    <state x="516" y="215" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1586077130004">
+      <screen x="0" y="0" width="1536" height="826" />
+    </state>
+    <state x="516" y="215" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.826@0.0.1536.826" timestamp="1586077130004" />
     <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser" timestamp="1585984701156">
       <screen x="0" y="0" width="1536" height="826" />
     </state>
@@ -200,42 +236,46 @@
       <screen x="0" y="0" width="1536" height="826" />
     </state>
     <state x="352" y="7" key="CommitChangelistDialog2/0.0.1536.826@0.0.1536.826" timestamp="1585671761002" />
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1585997308938">
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1586077473160">
       <screen x="0" y="0" width="1536" height="826" />
     </state>
-    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.826@0.0.1536.826" timestamp="1585997308938" />
-    <state width="1492" height="230" key="GridCell.Tab.0.bottom" timestamp="1586008647939">
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.826@0.0.1536.826" timestamp="1586077473160" />
+    <state width="1492" height="230" key="GridCell.Tab.0.bottom" timestamp="1586080487305">
       <screen x="0" y="0" width="1536" height="826" />
     </state>
-    <state width="1492" height="230" key="GridCell.Tab.0.bottom/0.0.1536.826@0.0.1536.826" timestamp="1586008647939" />
-    <state width="1492" height="230" key="GridCell.Tab.0.center" timestamp="1586008647939">
+    <state width="1492" height="230" key="GridCell.Tab.0.bottom/0.0.1536.826@0.0.1536.826" timestamp="1586080487305" />
+    <state width="1492" height="230" key="GridCell.Tab.0.center" timestamp="1586080487304">
       <screen x="0" y="0" width="1536" height="826" />
     </state>
-    <state width="1492" height="230" key="GridCell.Tab.0.center/0.0.1536.826@0.0.1536.826" timestamp="1586008647939" />
-    <state width="1492" height="230" key="GridCell.Tab.0.left" timestamp="1586008647939">
+    <state width="1492" height="230" key="GridCell.Tab.0.center/0.0.1536.826@0.0.1536.826" timestamp="1586080487304" />
+    <state width="1492" height="230" key="GridCell.Tab.0.left" timestamp="1586080487304">
       <screen x="0" y="0" width="1536" height="826" />
     </state>
-    <state width="1492" height="230" key="GridCell.Tab.0.left/0.0.1536.826@0.0.1536.826" timestamp="1586008647939" />
-    <state width="1492" height="230" key="GridCell.Tab.0.right" timestamp="1586008647939">
+    <state width="1492" height="230" key="GridCell.Tab.0.left/0.0.1536.826@0.0.1536.826" timestamp="1586080487304" />
+    <state width="1492" height="230" key="GridCell.Tab.0.right" timestamp="1586080487304">
       <screen x="0" y="0" width="1536" height="826" />
     </state>
-    <state width="1492" height="230" key="GridCell.Tab.0.right/0.0.1536.826@0.0.1536.826" timestamp="1586008647939" />
-    <state width="1492" height="256" key="GridCell.Tab.1.bottom" timestamp="1586003997582">
+    <state width="1492" height="230" key="GridCell.Tab.0.right/0.0.1536.826@0.0.1536.826" timestamp="1586080487304" />
+    <state width="1492" height="256" key="GridCell.Tab.1.bottom" timestamp="1586031970327">
       <screen x="0" y="0" width="1536" height="826" />
     </state>
-    <state width="1492" height="256" key="GridCell.Tab.1.bottom/0.0.1536.826@0.0.1536.826" timestamp="1586003997582" />
-    <state width="1492" height="256" key="GridCell.Tab.1.center" timestamp="1586003997581">
+    <state width="1492" height="256" key="GridCell.Tab.1.bottom/0.0.1536.826@0.0.1536.826" timestamp="1586031970327" />
+    <state width="1492" height="256" key="GridCell.Tab.1.center" timestamp="1586031970327">
       <screen x="0" y="0" width="1536" height="826" />
     </state>
-    <state width="1492" height="256" key="GridCell.Tab.1.center/0.0.1536.826@0.0.1536.826" timestamp="1586003997581" />
-    <state width="1492" height="256" key="GridCell.Tab.1.left" timestamp="1586003997581">
+    <state width="1492" height="256" key="GridCell.Tab.1.center/0.0.1536.826@0.0.1536.826" timestamp="1586031970327" />
+    <state width="1492" height="256" key="GridCell.Tab.1.left" timestamp="1586031970327">
       <screen x="0" y="0" width="1536" height="826" />
     </state>
-    <state width="1492" height="256" key="GridCell.Tab.1.left/0.0.1536.826@0.0.1536.826" timestamp="1586003997581" />
-    <state width="1492" height="256" key="GridCell.Tab.1.right" timestamp="1586003997581">
+    <state width="1492" height="256" key="GridCell.Tab.1.left/0.0.1536.826@0.0.1536.826" timestamp="1586031970327" />
+    <state width="1492" height="256" key="GridCell.Tab.1.right" timestamp="1586031970327">
       <screen x="0" y="0" width="1536" height="826" />
     </state>
-    <state width="1492" height="256" key="GridCell.Tab.1.right/0.0.1536.826@0.0.1536.826" timestamp="1586003997581" />
+    <state width="1492" height="256" key="GridCell.Tab.1.right/0.0.1536.826@0.0.1536.826" timestamp="1586031970327" />
+    <state x="249" y="0" key="SettingsEditor" timestamp="1586077594829">
+      <screen x="0" y="0" width="1536" height="826" />
+    </state>
+    <state x="249" y="0" key="SettingsEditor/0.0.1536.826@0.0.1536.826" timestamp="1586077594829" />
     <state x="465" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1585992662290">
       <screen x="0" y="0" width="1536" height="826" />
     </state>
