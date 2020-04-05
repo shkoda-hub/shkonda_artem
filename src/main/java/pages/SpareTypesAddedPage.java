@@ -39,7 +39,7 @@ public class SpareTypesAddedPage extends ParentPage {
         actionWithWebElements.clickButton(addButton);
     }
 
-    public void inputSpareTypeName(){
+    public void inputSpareTypeName(String spareTypeName){
         actionWithWebElements.enterTextToTextField(spareTypeNameField, spareTypeName);
     }
 
@@ -47,8 +47,8 @@ public class SpareTypesAddedPage extends ParentPage {
         actionWithWebElements.clickButton(createSpareTypeButton);
     }
 
-    public boolean checkNewSpareTypeName(){
-        return actionWithWebElements.isElementDisplay(addedSpareType);
+    public boolean checkNewSpareTypeName(String spareTypeName){
+        return actionWithWebElements.checkNewAddedElement(spareTypeName);
     }
 
 

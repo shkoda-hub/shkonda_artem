@@ -31,16 +31,6 @@ public class WorkersAddedPage extends ParentPage {
     @FindBy(name = "add")
     private WebElement createWorkersButton;
 
-    @FindBy(xpath = "//td[contains(text(),'Shkonda Artem Vladimirovich')]")
-    private WebElement addedWorkerFIO;
-
-    @FindBy(xpath = "//td[contains(text(),'+380990123456')]")
-    private WebElement addedWorkerPhone;
-
-    String surname = "Shkonda";
-    String name = "Artem";
-    String middleName = "Vladimirovich";
-    String phone = "+380990123456";
 
     public WorkersAddedPage(WebDriver webDriver) {
         super(webDriver);
@@ -54,19 +44,19 @@ public class WorkersAddedPage extends ParentPage {
         actionWithWebElements.clickButton(addButton);
     }
 
-    public void inputWorkerSurname(){
+    public void inputWorkerSurname(String surname){
         actionWithWebElements.enterTextToTextField(workersSurnameField, surname);
     }
 
-    public void inputWorkerName(){
+    public void inputWorkerName(String name){
         actionWithWebElements.enterTextToTextField(workersNameField, name);
     }
 
-    public void inputWorkerMiddleName(){
+    public void inputWorkerMiddleName(String middleName){
         actionWithWebElements.enterTextToTextField(workersMiddleNameField, middleName);
     }
 
-    public void inputWorkerPhone(){
+    public void inputWorkerPhone(String phone){
         actionWithWebElements.enterTextToTextField(workersPhoneField, phone);
     }
 
@@ -74,13 +64,10 @@ public class WorkersAddedPage extends ParentPage {
         actionWithWebElements.clickButton(createWorkersButton);
     }
 
-    public boolean checkNewWorkersFIO(){
-        return actionWithWebElements.isElementDisplay(addedWorkerFIO);
+    public boolean checkNewWorkers(String contact){
+        return actionWithWebElements.checkNewAddedElement(contact);
     }
 
-    public boolean checkNewWorkersPhone(){
-        return actionWithWebElements.isElementDisplay(addedWorkerPhone);
-    }
 
 
 

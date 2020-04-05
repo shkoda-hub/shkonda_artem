@@ -13,13 +13,13 @@ public class WorkersAddedWithPageObjectTest extends AbstractParentTest {
     public void addedWorker(){
         workersAddedPage.openWorkersPage();
         workersAddedPage.openWorkersAddedForm();
-        workersAddedPage.inputWorkerSurname();
-        workersAddedPage.inputWorkerName();
-        workersAddedPage.inputWorkerMiddleName();
-        workersAddedPage.inputWorkerPhone();
+        workersAddedPage.inputWorkerSurname("Shkonda");
+        workersAddedPage.inputWorkerName("Artem11");
+        workersAddedPage.inputWorkerMiddleName("Vladimirovich11");
+        workersAddedPage.inputWorkerPhone("+9412914123");
         workersAddedPage.clickCreateButton();
-        checkExpectedResult("Не удалось найти ФИО работника", workersAddedPage.checkNewWorkersFIO());
-        checkExpectedResult("Не удалось найти номер телефона работника", workersAddedPage.checkNewWorkersPhone());
+        checkExpectedResult("Не удалось найти ФИО работника", workersAddedPage.checkNewWorkers("Shkonda Artem11 Vladimirovich11"));
+        checkExpectedResult("Не удалось найти номер телефона работника", workersAddedPage.checkNewWorkers("+9412914123"));
 
     }
 

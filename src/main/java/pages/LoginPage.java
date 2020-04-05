@@ -9,6 +9,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import parentPage.ParentPage;
 
+import java.lang.ref.SoftReference;
+
 public class LoginPage extends ParentPage {
 
     //By inputLoginName = By.name("_username");

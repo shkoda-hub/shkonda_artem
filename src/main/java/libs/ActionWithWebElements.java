@@ -1,5 +1,6 @@
 package libs;
 
+import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
@@ -54,6 +55,10 @@ public class ActionWithWebElements {
         }
     }
 
+    public boolean checkNewAddedElement(String text){
+        return webDriver.findElement(By.xpath("//td[contains(text(),'"+text+"')]")).isDisplayed();
+    }
+
     public boolean  isElementEnable(WebElement element){
         try{
             return element.isEnabled();
@@ -103,5 +108,7 @@ public class ActionWithWebElements {
             logger.error("");
         }
     }
+
+
 
 }

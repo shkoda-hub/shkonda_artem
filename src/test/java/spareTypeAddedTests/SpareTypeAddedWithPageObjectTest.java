@@ -13,8 +13,8 @@ public class SpareTypeAddedWithPageObjectTest extends AbstractParentTest {
     public void addedSpareType(){
         spareTypesAddedPage.openSpareTypesPage();
         spareTypesAddedPage.openSpareTypesAddedForm();
-        spareTypesAddedPage.inputSpareTypeName();
+        spareTypesAddedPage.inputSpareTypeName("Spare type 00093212312");
         spareTypesAddedPage.clickCreateButton();
-        checkExpectedResult("Тип запчасти не найден", spareTypesAddedPage.checkNewSpareTypeName());
+        checkExpectedResult("Тип запчасти не найден", spareTypesAddedPage.checkNewSpareTypeName("Spare type 00093212312"));
     }
 }

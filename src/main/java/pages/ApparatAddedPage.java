@@ -35,10 +35,6 @@ public class ApparatAddedPage extends ParentPage {
     private WebElement addedApparatComment;
 
 
-
-    String number = "111001";
-    String comment = "New apparat SN:0000111001";
-
     public ApparatAddedPage(WebDriver webDriver) {
         super(webDriver);
     }
@@ -51,11 +47,11 @@ public class ApparatAddedPage extends ParentPage {
         actionWithWebElements.clickButton(addButton);
     }
 
-    public void inputApparatNumber(){
+    public void inputApparatNumber(String number){
         actionWithWebElements.enterTextToTextField(apparatNumberField, number);
     }
 
-    public void inputApparatComment(){
+    public void inputApparatComment(String comment){
         actionWithWebElements.enterTextToTextField(apparatCommentField, comment);
     }
 
@@ -63,13 +59,27 @@ public class ApparatAddedPage extends ParentPage {
         actionWithWebElements.clickButton(createApparatButton);
     }
 
-    public boolean checkNewApparatNumber(){
-        return actionWithWebElements.isElementDisplay(addedApparatNumber);
+    public boolean checkNewApparatNumber(String number){
+        return actionWithWebElements.checkNewAddedElement(number);
     }
 
-    public boolean checkNewApparatComment(){
-        return actionWithWebElements.isElementDisplay(addedApparatComment);
+    public boolean checkNewApparatComment(String comment){
+        return actionWithWebElements.checkNewAddedElement(comment);
     }
+
+    public boolean checkNumberField(){
+        return actionWithWebElements.isElementDisplay(apparatNumberField);
+    }
+
+    public boolean checkCommentField(){
+        return actionWithWebElements.isElementDisplay(apparatCommentField);
+    }
+
+    /*public boolean checkPopUp(){
+        return actionWithWebElements.isElementDisplay(alert);
+    }
+
+     */
 
 
 

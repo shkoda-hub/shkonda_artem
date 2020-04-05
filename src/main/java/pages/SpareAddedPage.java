@@ -1,5 +1,6 @@
 package pages;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -28,8 +29,7 @@ public class SpareAddedPage extends ParentPage {
     @FindBy(xpath = "//td[contains(text(),'GTX 2080 ti sn920')]")
     private WebElement addedSpare;
 
-    String spareTypeName = "Spare type 0009102";
-    String spareName = "GTX 2080 ti sn920";
+
 
     public SpareAddedPage(WebDriver webDriver) {
         super(webDriver);
@@ -43,11 +43,11 @@ public class SpareAddedPage extends ParentPage {
         actionWithWebElements.clickButton(addButton);
     }
 
-    public void inputSpareName(){
-        actionWithWebElements.enterTextToTextField(spareNameField, spareTypeName);
+    public void inputSpareName(String name){
+        actionWithWebElements.enterTextToTextField(spareNameField, name);
     }
 
-    public void selectSpareType(){
+    public void selectSpareType(String spareTypeName){
         actionWithWebElements.selectElementFromDD(spareTypeDD, spareTypeName);
     }
 
@@ -55,9 +55,11 @@ public class SpareAddedPage extends ParentPage {
         actionWithWebElements.clickButton(createSpareButton);
     }
 
-    public boolean checkNewSpareName(){
-        return actionWithWebElements.isElementDisplay(addedSpare);
+    public boolean checkNewSpareName(String name){
+        return actionWithWebElements.checkNewAddedElement(name);
     }
+
+
 
 
 }
