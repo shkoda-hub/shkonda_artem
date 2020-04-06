@@ -7,7 +7,7 @@ import parentTests.AbstractParentTest;
 public class ApparatAddedWithPageObjectTest extends AbstractParentTest {
     @Before
     public void login(){
-        loginPage.loginToPage("Student", "909090");
+        loginPage.validLoginToPage();
     }
     @Test
     public void addedApparat(){

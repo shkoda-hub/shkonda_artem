@@ -22,10 +22,9 @@ public class SpareTypesAddedPage extends ParentPage {
     @FindBy(name = "add")
     private WebElement createSpareTypeButton;
 
-    @FindBy(xpath = "//td[contains(text(),'Spare type 0009102')]")
-    private WebElement addedSpareType;
+    @FindBy(name = "spareType")
+    private WebElement spareTypeAddedForm;
 
-    String spareTypeName = "Spare type 0009102";
 
     public SpareTypesAddedPage(WebDriver webDriver) {
         super(webDriver);
@@ -49,6 +48,10 @@ public class SpareTypesAddedPage extends ParentPage {
 
     public boolean checkNewSpareTypeName(String spareTypeName){
         return actionWithWebElements.checkNewAddedElement(spareTypeName);
+    }
+
+    public boolean checkSpareTypeAddedForm(){
+        return actionWithWebElements.isElementDisplay(spareTypeAddedForm);
     }
 
 

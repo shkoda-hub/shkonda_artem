@@ -4,22 +4,18 @@ import org.junit.Before;
 import org.junit.Test;
 import parentTests.AbstractParentTest;
 
-public class ApparatAddedWithPageObjectWithoutComment extends AbstractParentTest {
+public class ApparatAddedWithPageObjectWithoutNumber extends AbstractParentTest {
     @Before
     public void login(){
         loginPage.validLoginToPage();
     }
-
     @Test
-    public void addedApparatWithoutComment(){
+    public void addedApparatWithoutNumber(){
         apparatAddedPage.openApparatPage();
         apparatAddedPage.openApparatAddedForm();
-        apparatAddedPage.inputApparatNumber("823211");
+        apparatAddedPage.inputApparatComment("Comment Comment");
         apparatAddedPage.clickCreateButton();
         checkExpectedResult("", apparatAddedPage.checkApparatAddedForm());
     }
-
-
-
 
 }

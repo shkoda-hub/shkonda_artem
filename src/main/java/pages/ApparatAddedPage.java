@@ -28,11 +28,9 @@ public class ApparatAddedPage extends ParentPage {
     @FindBy(name = "add")
     private WebElement createApparatButton;
 
-    @FindBy(xpath = "//td[text() = '111001']")
-    private WebElement addedApparatNumber;
+    @FindBy(name = "apparat")
+    private WebElement apparatAddedForm;
 
-    @FindBy(xpath = "//td[text() = 'New apparat SN:0000111001']")
-    private WebElement addedApparatComment;
 
 
     public ApparatAddedPage(WebDriver webDriver) {
@@ -67,19 +65,17 @@ public class ApparatAddedPage extends ParentPage {
         return actionWithWebElements.checkNewAddedElement(comment);
     }
 
-    public boolean checkNumberField(){
-        return actionWithWebElements.isElementDisplay(apparatNumberField);
+    public boolean checkApparatAddedForm(){
+        return actionWithWebElements.isElementDisplay(apparatAddedForm);
     }
 
-    public boolean checkCommentField(){
-        return actionWithWebElements.isElementDisplay(apparatCommentField);
+    public boolean getAlert(){
+        return actionWithWebElements.getAlert();
     }
 
-    /*public boolean checkPopUp(){
-        return actionWithWebElements.isElementDisplay(alert);
-    }
 
-     */
+
+
 
 
 

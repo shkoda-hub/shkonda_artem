@@ -23,11 +23,12 @@ public class SpareAddedPage extends ParentPage {
     @FindBy(id = "spares_spareType")
     private WebElement spareTypeDD;
 
+    @FindBy(name = "spares")
+    private WebElement spareAddedForm;
+
     @FindBy(name = "add")
     private WebElement createSpareButton;
 
-    @FindBy(xpath = "//td[contains(text(),'GTX 2080 ti sn920')]")
-    private WebElement addedSpare;
 
 
 
@@ -47,6 +48,7 @@ public class SpareAddedPage extends ParentPage {
         actionWithWebElements.enterTextToTextField(spareNameField, name);
     }
 
+
     public void selectSpareType(String spareTypeName){
         actionWithWebElements.selectElementFromDD(spareTypeDD, spareTypeName);
     }
@@ -57,6 +59,10 @@ public class SpareAddedPage extends ParentPage {
 
     public boolean checkNewSpareName(String name){
         return actionWithWebElements.checkNewAddedElement(name);
+    }
+
+    public boolean checkSpareAddedForm(){
+        return actionWithWebElements.isElementDisplay(spareAddedForm);
     }
 
 

@@ -70,10 +70,17 @@ public class LoginPage extends ParentPage {
         actionWithWebElements.clickButton(inputButtonXpath);
     }
 
-        public void loginToPage(String login, String password){
+    public void loginToPage(String login, String password){
         openPageLogin();
         inputLogin(login);
         inputPassword(password);
+        clickSubmitButton();
+    }
+
+    public void validLoginToPage(){
+        openPageLogin();
+        inputLogin("Student");
+        inputPassword("909090");
         clickSubmitButton();
     }
 

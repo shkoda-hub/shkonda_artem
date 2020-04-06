@@ -31,6 +31,9 @@ public class WorkersAddedPage extends ParentPage {
     @FindBy(name = "add")
     private WebElement createWorkersButton;
 
+    @FindBy(name = "workers")
+    private WebElement workersAddedForm;
+
 
     public WorkersAddedPage(WebDriver webDriver) {
         super(webDriver);
@@ -64,9 +67,14 @@ public class WorkersAddedPage extends ParentPage {
         actionWithWebElements.clickButton(createWorkersButton);
     }
 
-    public boolean checkNewWorkers(String contact){
-        return actionWithWebElements.checkNewAddedElement(contact);
+    public boolean checkNewWorkers(String element){
+        return actionWithWebElements.checkNewAddedElement(element);
     }
+
+   public boolean checkWorkersAddedForm(){
+        return actionWithWebElements.isElementDisplay(workersAddedForm);
+   }
+
 
 
 

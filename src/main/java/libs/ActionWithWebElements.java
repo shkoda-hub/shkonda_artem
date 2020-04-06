@@ -56,7 +56,7 @@ public class ActionWithWebElements {
     }
 
     public boolean checkNewAddedElement(String text){
-        return webDriver.findElement(By.xpath("//td[contains(text(),'"+text+"')]")).isDisplayed();
+        return webDriver.findElement(By.xpath("//td[text() = '"+text+"']")).isDisplayed();
     }
 
     public boolean  isElementEnable(WebElement element){
@@ -108,6 +108,20 @@ public class ActionWithWebElements {
             logger.error("");
         }
     }
+
+    public boolean getAlert(){
+        try {
+            Alert alert = webDriver.switchTo().alert();
+            return alert.getText().contains("Заполните это поле.");
+        }
+        catch (Exception e){
+            e.printStackTrace();
+            logger.error("");
+            return false;
+        }
+    }
+
+
 
 
 
