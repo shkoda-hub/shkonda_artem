@@ -11,7 +11,6 @@ public class WorkersAddedWithPageObjectWithoutMiddleName extends AbstractParentT
     }
     @Test
     public void addedWorkerWithoutMiddleName(){
-        workersAddedPage.openWorkersPage();
         workersAddedPage.openWorkersAddedForm();
         workersAddedPage.inputWorkerSurname("Shkonda");
         workersAddedPage.inputWorkerName("Artem11");

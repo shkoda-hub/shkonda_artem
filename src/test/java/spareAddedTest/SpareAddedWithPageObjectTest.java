@@ -12,7 +12,6 @@ public class SpareAddedWithPageObjectTest extends AbstractParentTest {
     }
     @Test
     public void addedSpare(){
-        spareAddedPage.openSparePage();
         spareAddedPage.openSpareAddedForm();
         spareAddedPage.inputSpareName("dsa dewe wefw e");
         spareAddedPage.selectSpareType("Spare type 0009102");

@@ -11,7 +11,6 @@ public class SpareAddedWithPageObjectWithoutSpareType extends AbstractParentTest
     }
     @Test
     public void addedSpareWithoutSpareType(){
-        spareAddedPage.openSparePage();
         spareAddedPage.openSpareAddedForm();
         spareAddedPage.inputSpareName("Spare spare");
         checkExpectedResult("", spareAddedPage.checkSpareAddedForm());

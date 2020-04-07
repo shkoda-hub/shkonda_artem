@@ -11,7 +11,6 @@ public class WorkersAddedWithPageObjectWithoutSurname extends AbstractParentTest
     }
     @Test
     public void addedWorkerWithoutSurname(){
-        workersAddedPage.openWorkersPage();
         workersAddedPage.openWorkersAddedForm();
         workersAddedPage.inputWorkerName("Artem11");
         workersAddedPage.inputWorkerMiddleName("Vladimirovich11");

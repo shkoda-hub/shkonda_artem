@@ -487,3 +487,82 @@
 2020-06-04 23:23:37   INFO [libs.ActionWithWebElements] : 
 2020-06-04 23:23:37   INFO [libs.ActionWithWebElements] : 
 2020-06-04 23:23:37   INFO [libs.ActionWithWebElements] : 
+2020-07-04 21:21:32   INFO [pages.LoginPage] : Page login was opened
+2020-07-04 21:21:32   INFO [libs.ActionWithWebElements] : 
+2020-07-04 21:21:32   INFO [libs.ActionWithWebElements] : 
+2020-07-04 21:21:33   INFO [libs.ActionWithWebElements] : 
+2020-07-04 21:21:34   INFO [libs.ActionWithWebElements] : 
+2020-07-04 21:21:35   INFO [libs.ActionWithWebElements] : 
+2020-07-04 21:21:35   INFO [libs.ActionWithWebElements] : 
+2020-07-04 21:21:35   INFO [libs.ActionWithWebElements] : 
+2020-07-04 21:21:35   INFO [libs.ActionWithWebElements] : 
+2020-07-04 21:21:35   INFO [libs.ActionWithWebElements] : The check box is false
+2020-07-04 21:21:35   INFO [libs.ActionWithWebElements] : The check box is false
+2020-07-04 21:21:36   INFO [libs.ActionWithWebElements] : 
+2020-07-04 21:34:20   INFO [pages.LoginPage] : Page login was opened
+2020-07-04 21:34:21   INFO [libs.ActionWithWebElements] : 
+2020-07-04 21:34:21   INFO [libs.ActionWithWebElements] : 
+2020-07-04 21:34:22   INFO [libs.ActionWithWebElements] : 
+2020-07-04 21:34:24   INFO [libs.ActionWithWebElements] : 
+2020-07-04 21:34:24   INFO [libs.ActionWithWebElements] : 
+2020-07-04 21:34:24   INFO [libs.ActionWithWebElements] : 
+2020-07-04 21:34:24   INFO [libs.ActionWithWebElements] : The check box is false
+2020-07-04 21:34:24   INFO [libs.ActionWithWebElements] : The check box is false
+2020-07-04 21:34:25   INFO [libs.ActionWithWebElements] : 
+2020-07-04 22:03:50   INFO [pages.LoginPage] : Page login was opened
+2020-07-04 22:03:51   INFO [libs.ActionWithWebElements] : 
+2020-07-04 22:03:51   INFO [libs.ActionWithWebElements] : 
+2020-07-04 22:03:51   INFO [libs.ActionWithWebElements] : 
+2020-07-04 22:03:53   INFO [libs.ActionWithWebElements] : 
+2020-07-04 22:03:53   INFO [libs.ActionWithWebElements] : 
+2020-07-04 22:03:53   INFO [libs.ActionWithWebElements] : 
+2020-07-04 22:03:53   INFO [libs.ActionWithWebElements] : The check box is false
+2020-07-04 22:03:53   INFO [libs.ActionWithWebElements] : The check box is true
+2020-07-04 22:03:54   INFO [libs.ActionWithWebElements] : 
+2020-07-04 22:03:59   INFO [pages.LoginPage] : Page login was opened
+2020-07-04 22:03:59   INFO [libs.ActionWithWebElements] : 
+2020-07-04 22:03:59   INFO [libs.ActionWithWebElements] : 
+2020-07-04 22:04:00   INFO [libs.ActionWithWebElements] : 
+2020-07-04 22:04:01   INFO [libs.ActionWithWebElements] : 
+2020-07-04 22:04:01   INFO [libs.ActionWithWebElements] : 
+2020-07-04 22:04:02   INFO [libs.ActionWithWebElements] : 
+2020-07-04 22:04:02   INFO [libs.ActionWithWebElements] : The check box is true
+2020-07-04 22:04:02   INFO [libs.ActionWithWebElements] : The check box is false
+2020-07-04 22:04:02   INFO [libs.ActionWithWebElements] : 
+2020-07-04 22:04:10   INFO [pages.LoginPage] : Page login was opened
+2020-07-04 22:04:10   INFO [libs.ActionWithWebElements] : 
+2020-07-04 22:04:10   INFO [libs.ActionWithWebElements] : 
+2020-07-04 22:04:11   INFO [libs.ActionWithWebElements] : 
+2020-07-04 22:04:12   INFO [libs.ActionWithWebElements] : 
+2020-07-04 22:04:12   INFO [libs.ActionWithWebElements] : 
+2020-07-04 22:04:13   INFO [libs.ActionWithWebElements] : 
+2020-07-04 22:04:13   INFO [libs.ActionWithWebElements] : The check box is false
+2020-07-04 22:04:13   INFO [libs.ActionWithWebElements] : The check box is false
+2020-07-04 22:04:13   INFO [libs.ActionWithWebElements] : 
+2020-07-04 22:04:18   INFO [pages.LoginPage] : Page login was opened
+2020-07-04 22:04:18   INFO [libs.ActionWithWebElements] : 
+2020-07-04 22:04:19   INFO [libs.ActionWithWebElements] : 
+2020-07-04 22:04:19   INFO [libs.ActionWithWebElements] : 
+2020-07-04 22:04:21   INFO [libs.ActionWithWebElements] : 
+2020-07-04 22:04:21   INFO [libs.ActionWithWebElements] : 
+2020-07-04 22:04:21   INFO [libs.ActionWithWebElements] : The check box is false
+2020-07-04 22:04:21   INFO [libs.ActionWithWebElements] : The check box is false
+2020-07-04 22:04:21   INFO [libs.ActionWithWebElements] : 
+2020-07-04 22:04:26   INFO [pages.LoginPage] : Page login was opened
+2020-07-04 22:04:26   INFO [libs.ActionWithWebElements] : 
+2020-07-04 22:04:26   INFO [libs.ActionWithWebElements] : 
+2020-07-04 22:04:27   INFO [libs.ActionWithWebElements] : 
+2020-07-04 22:04:28   INFO [libs.ActionWithWebElements] : 
+2020-07-04 22:04:29   INFO [libs.ActionWithWebElements] : 
+2020-07-04 22:04:29   INFO [libs.ActionWithWebElements] : The check box is false
+2020-07-04 22:04:29   INFO [libs.ActionWithWebElements] : The check box is false
+2020-07-04 22:04:29   INFO [libs.ActionWithWebElements] : 
+2020-07-04 22:04:34   INFO [pages.LoginPage] : Page login was opened
+2020-07-04 22:04:34   INFO [libs.ActionWithWebElements] : 
+2020-07-04 22:04:34   INFO [libs.ActionWithWebElements] : 
+2020-07-04 22:04:35   INFO [libs.ActionWithWebElements] : 
+2020-07-04 22:04:37   INFO [libs.ActionWithWebElements] : 
+2020-07-04 22:04:37   INFO [libs.ActionWithWebElements] : 
+2020-07-04 22:04:37   INFO [libs.ActionWithWebElements] : The check box is false
+2020-07-04 22:04:37   INFO [libs.ActionWithWebElements] : The check box is false
+2020-07-04 22:04:37   INFO [libs.ActionWithWebElements] : 

@@ -11,9 +11,6 @@ public class SpareAddedPage extends ParentPage {
     @FindBy(id = "spares")
     private WebElement spareDictionary;
 
-    @FindBy(id = "dictionary")
-    private WebElement dictionaryList;
-
     @FindBy(xpath = "//div[@class = 'box-tools']")
     private WebElement addButton;
 
@@ -36,12 +33,9 @@ public class SpareAddedPage extends ParentPage {
         super(webDriver);
     }
 
-    public void openSparePage(){
-        actionWithWebElements.openDictionaryPage(dictionaryList, spareDictionary);
-    }
 
     public void openSpareAddedForm(){
-        actionWithWebElements.clickButton(addButton);
+        actionWithWebElements.openDictionaryAddedForm(spareDictionary);
     }
 
     public void inputSpareName(String name){

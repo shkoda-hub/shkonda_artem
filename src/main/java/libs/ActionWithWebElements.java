@@ -109,6 +109,18 @@ public class ActionWithWebElements {
         }
     }
 
+    public void openDictionaryAddedForm(WebElement dictionary) {
+        try {
+            webDriver.findElement(By.id("dictionary")).click();
+            dictionary.click();
+            webDriver.findElement(By.xpath("//div[@class = 'box-tools']")).click();
+        }
+        catch (Exception e){
+            e.printStackTrace();
+            logger.error("");
+        }
+    }
+
     public boolean getAlert(){
         try {
             Alert alert = webDriver.switchTo().alert();

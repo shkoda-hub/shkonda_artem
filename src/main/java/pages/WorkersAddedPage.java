@@ -10,9 +10,6 @@ public class WorkersAddedPage extends ParentPage {
     @FindBy(id = "workers")
     private WebElement workersDictionary;
 
-    @FindBy(id = "dictionary")
-    private WebElement dictionaryList;
-
     @FindBy(xpath = "//div[@class = 'box-tools']")
     private WebElement addButton;
 
@@ -39,12 +36,8 @@ public class WorkersAddedPage extends ParentPage {
         super(webDriver);
     }
 
-    public void openWorkersPage(){
-        actionWithWebElements.openDictionaryPage(dictionaryList, workersDictionary);
-    }
-
     public void openWorkersAddedForm(){
-        actionWithWebElements.clickButton(addButton);
+        actionWithWebElements.openDictionaryAddedForm(workersDictionary);
     }
 
     public void inputWorkerSurname(String surname){

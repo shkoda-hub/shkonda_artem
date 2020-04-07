@@ -10,9 +10,6 @@ public class ApparatAddedPage extends ParentPage {
     @FindBy(id = "apparat")
     private WebElement apparatDictionary;
 
-    @FindBy(id = "dictionary")
-    private WebElement dictionaryList;
-
     @FindBy(xpath = "//div[@class = 'box-tools']")
     private WebElement addButton;
 
@@ -32,17 +29,12 @@ public class ApparatAddedPage extends ParentPage {
     private WebElement apparatAddedForm;
 
 
-
     public ApparatAddedPage(WebDriver webDriver) {
         super(webDriver);
     }
 
-    public void openApparatPage(){
-        actionWithWebElements.openDictionaryPage(dictionaryList, apparatDictionary);
-    }
-
     public void openApparatAddedForm(){
-        actionWithWebElements.clickButton(addButton);
+        actionWithWebElements.openDictionaryAddedForm(apparatDictionary);
     }
 
     public void inputApparatNumber(String number){

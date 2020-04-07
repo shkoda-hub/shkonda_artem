@@ -11,7 +11,6 @@ public class SpareTypeAddedWithPageObjectTest extends AbstractParentTest {
     }
     @Test
     public void addedSpareType(){
-        spareTypesAddedPage.openSpareTypesPage();
         spareTypesAddedPage.openSpareTypesAddedForm();
         spareTypesAddedPage.inputSpareTypeName("Spare type 00093212312");
         spareTypesAddedPage.clickCreateButton();

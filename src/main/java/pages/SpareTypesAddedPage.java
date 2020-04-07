@@ -10,9 +10,6 @@ public class SpareTypesAddedPage extends ParentPage {
     @FindBy(id = "spareType")
     private WebElement spareTypesDictionary;
 
-    @FindBy(id = "dictionary")
-    private WebElement dictionaryList;
-
     @FindBy(xpath = "//div[@class = 'box-tools']")
     private WebElement addButton;
 
@@ -30,12 +27,8 @@ public class SpareTypesAddedPage extends ParentPage {
         super(webDriver);
     }
 
-    public void openSpareTypesPage(){
-        actionWithWebElements.openDictionaryPage(dictionaryList, spareTypesDictionary);
-    }
-
     public void openSpareTypesAddedForm(){
-        actionWithWebElements.clickButton(addButton);
+        actionWithWebElements.openDictionaryAddedForm(spareTypesDictionary);
     }
 
     public void inputSpareTypeName(String spareTypeName){

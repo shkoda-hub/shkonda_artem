@@ -11,7 +11,6 @@ public class WorkersAddedWithPageObjectWithoutPhone extends AbstractParentTest {
     }
     @Test
     public void addedWorkerWithoutPhone(){
-        workersAddedPage.openWorkersPage();
         workersAddedPage.openWorkersAddedForm();
         workersAddedPage.inputWorkerSurname("Shkonda11");
         workersAddedPage.inputWorkerName("Artem11");

@@ -12,7 +12,6 @@ public class ApparatAddedWithPageObjectWithoutComment extends AbstractParentTest
 
     @Test
     public void addedApparatWithoutComment(){
-        apparatAddedPage.openApparatPage();
         apparatAddedPage.openApparatAddedForm();
         apparatAddedPage.inputApparatNumber("823211");
         apparatAddedPage.clickCreateButton();
