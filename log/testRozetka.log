@@ -566,3 +566,143 @@
 2020-07-04 22:04:37   INFO [libs.ActionWithWebElements] : The check box is false
 2020-07-04 22:04:37   INFO [libs.ActionWithWebElements] : The check box is false
 2020-07-04 22:04:37   INFO [libs.ActionWithWebElements] : 
+2020-08-04 19:51:15   INFO [pages.LoginPage] : Page login was opened
+2020-08-04 19:51:15   INFO [libs.ActionWithWebElements] : 
+2020-08-04 19:51:15   INFO [libs.ActionWithWebElements] : 
+2020-08-04 19:51:16   INFO [libs.ActionWithWebElements] : 
+2020-08-04 19:53:02   INFO [pages.LoginPage] : Page login was opened
+2020-08-04 19:53:02   INFO [libs.ActionWithWebElements] : 
+2020-08-04 19:53:02   INFO [libs.ActionWithWebElements] : 
+2020-08-04 19:53:03   INFO [libs.ActionWithWebElements] : 
+2020-08-04 19:53:17   INFO [pages.LoginPage] : Page login was opened
+2020-08-04 19:53:17   INFO [libs.ActionWithWebElements] : 
+2020-08-04 19:53:17   INFO [libs.ActionWithWebElements] : 
+2020-08-04 19:53:18   INFO [libs.ActionWithWebElements] : 
+2020-08-04 19:53:18   INFO [libs.ActionWithWebElements] : 
+2020-08-04 19:53:19   INFO [libs.ActionWithWebElements] : 
+2020-08-04 19:53:22  ERROR [libs.ActionWithWebElements] : 
+2020-08-04 19:53:22   INFO [libs.Utils] : ScreenShot: ..\shkonda_project\target\screenshot\apparatAddedTests\ApparatAddedWithPageObjectWithoutCommentaddedApparatWithoutComment.jpg
+2020-08-04 20:06:59   INFO [pages.LoginPage] : Page login was opened
+2020-08-04 20:06:59   INFO [libs.ActionWithWebElements] : 
+2020-08-04 20:06:59   INFO [libs.ActionWithWebElements] : 
+2020-08-04 20:07:00   INFO [libs.ActionWithWebElements] : 
+2020-08-04 20:07:01   INFO [libs.ActionWithWebElements] : 
+2020-08-04 20:07:01   INFO [libs.ActionWithWebElements] : 
+2020-08-04 20:07:04  ERROR [libs.ActionWithWebElements] : 
+2020-08-04 20:07:05   INFO [libs.Utils] : ScreenShot: ..\shkonda_project\target\screenshot\apparatAddedTests\ApparatAddedWithPageObjectWithoutCommentaddedApparatWithoutComment.jpg
+2020-08-04 20:07:40   INFO [pages.LoginPage] : Page login was opened
+2020-08-04 20:07:40   INFO [libs.ActionWithWebElements] : 
+2020-08-04 20:07:40   INFO [libs.ActionWithWebElements] : 
+2020-08-04 20:07:41   INFO [libs.ActionWithWebElements] : 
+2020-08-04 20:07:42   INFO [libs.ActionWithWebElements] : 
+2020-08-04 20:07:42   INFO [libs.ActionWithWebElements] : 
+2020-08-04 20:07:45  ERROR [libs.ActionWithWebElements] : 
+2020-08-04 20:07:45   INFO [libs.Utils] : ScreenShot: ..\shkonda_project\target\screenshot\apparatAddedTests\ApparatAddedWithPageObjectWithoutCommentaddedApparatWithoutComment.jpg
+2020-08-04 20:09:54   INFO [pages.LoginPage] : Page login was opened
+2020-08-04 20:09:54   INFO [libs.ActionWithWebElements] : 
+2020-08-04 20:09:54   INFO [libs.ActionWithWebElements] : 
+2020-08-04 20:09:54   INFO [libs.ActionWithWebElements] : 
+2020-08-04 20:09:55   INFO [libs.ActionWithWebElements] : 
+2020-08-04 20:09:56   INFO [libs.ActionWithWebElements] : 
+2020-08-04 20:09:59  ERROR [libs.ActionWithWebElements] : 
+2020-08-04 20:09:59   INFO [libs.Utils] : ScreenShot: ..\shkonda_project\target\screenshot\apparatAddedTests\ApparatAddedWithPageObjectWithoutCommentaddedApparatWithoutComment.jpg
+2020-08-04 20:10:19   INFO [pages.LoginPage] : Page login was opened
+2020-08-04 20:10:19   INFO [libs.ActionWithWebElements] : 
+2020-08-04 20:10:19   INFO [libs.ActionWithWebElements] : 
+2020-08-04 20:10:20   INFO [libs.ActionWithWebElements] : 
+2020-08-04 20:10:21   INFO [libs.ActionWithWebElements] : 
+2020-08-04 20:10:21   INFO [libs.ActionWithWebElements] : 
+2020-08-04 21:43:59   INFO [pages.LoginPage] : Page login was opened
+2020-08-04 21:44:00   INFO [libs.ActionWithWebElements] : 
+2020-08-04 21:44:00   INFO [libs.ActionWithWebElements] : 
+2020-08-04 21:44:00   INFO [libs.ActionWithWebElements] : 
+2020-08-04 21:44:05   INFO [libs.ActionWithWebElements] : 
+2020-08-04 21:44:05   INFO [libs.ActionWithWebElements] : 
+2020-08-04 21:52:24   INFO [pages.LoginPage] : Page login was opened
+2020-08-04 21:52:24   INFO [libs.ActionWithWebElements] : 
+2020-08-04 21:52:24   INFO [libs.ActionWithWebElements] : 
+2020-08-04 21:52:25   INFO [libs.ActionWithWebElements] : 
+2020-08-04 21:52:26   INFO [libs.ActionWithWebElements] : 
+2020-08-04 22:27:32   INFO [pages.LoginPage] : Page login was opened
+2020-08-04 22:27:32   INFO [libs.ActionWithWebElements] : 
+2020-08-04 22:27:32   INFO [libs.ActionWithWebElements] : 
+2020-08-04 22:27:33   INFO [libs.ActionWithWebElements] : 
+2020-08-04 22:27:34   INFO [libs.ActionWithWebElements] : 
+2020-08-04 22:27:34   INFO [libs.ActionWithWebElements] : 
+2020-08-04 22:27:35   INFO [libs.ActionWithWebElements] : 
+2020-08-04 22:33:30   INFO [pages.LoginPage] : Page login was opened
+2020-08-04 22:33:30   INFO [libs.ActionWithWebElements] : 
+2020-08-04 22:33:30   INFO [libs.ActionWithWebElements] : 
+2020-08-04 22:33:31   INFO [libs.ActionWithWebElements] : 
+2020-08-04 22:33:32   INFO [libs.ActionWithWebElements] : 
+2020-08-04 22:33:32   INFO [libs.ActionWithWebElements] : 
+2020-08-04 22:33:33   INFO [libs.ActionWithWebElements] : 
+2020-08-04 22:48:18   INFO [pages.LoginPage] : Page login was opened
+2020-08-04 22:48:18   INFO [libs.ActionWithWebElements] : 
+2020-08-04 22:48:19   INFO [libs.ActionWithWebElements] : 
+2020-08-04 22:48:20   INFO [libs.ActionWithWebElements] : 
+2020-08-04 22:48:21   INFO [libs.ActionWithWebElements] : 
+2020-08-04 22:48:21   INFO [libs.ActionWithWebElements] : 
+2020-08-04 22:48:21   INFO [libs.ActionWithWebElements] : 
+2020-08-04 22:48:21   INFO [libs.ActionWithWebElements] : 
+2020-08-04 22:48:22   INFO [libs.ActionWithWebElements] : 
+2020-08-04 22:48:27   INFO [pages.LoginPage] : Page login was opened
+2020-08-04 22:48:27   INFO [libs.ActionWithWebElements] : 
+2020-08-04 22:48:28   INFO [libs.ActionWithWebElements] : 
+2020-08-04 22:48:28   INFO [libs.ActionWithWebElements] : 
+2020-08-04 22:48:30   INFO [libs.ActionWithWebElements] : 
+2020-08-04 22:48:30   INFO [libs.ActionWithWebElements] : 
+2020-08-04 22:48:30   INFO [libs.ActionWithWebElements] : 
+2020-08-04 22:48:30   INFO [libs.ActionWithWebElements] : 
+2020-08-04 22:48:35   INFO [pages.LoginPage] : Page login was opened
+2020-08-04 22:48:36   INFO [libs.ActionWithWebElements] : 
+2020-08-04 22:48:36   INFO [libs.ActionWithWebElements] : 
+2020-08-04 22:48:37   INFO [libs.ActionWithWebElements] : 
+2020-08-04 22:48:38   INFO [libs.ActionWithWebElements] : 
+2020-08-04 22:48:38   INFO [libs.ActionWithWebElements] : 
+2020-08-04 22:48:38   INFO [libs.ActionWithWebElements] : 
+2020-08-04 22:48:38   INFO [libs.ActionWithWebElements] : 
+2020-08-04 22:48:43   INFO [pages.LoginPage] : Page login was opened
+2020-08-04 22:48:43   INFO [libs.ActionWithWebElements] : 
+2020-08-04 22:48:43   INFO [libs.ActionWithWebElements] : 
+2020-08-04 22:48:44   INFO [libs.ActionWithWebElements] : 
+2020-08-04 22:48:45   INFO [libs.ActionWithWebElements] : 
+2020-08-04 22:48:45   INFO [libs.ActionWithWebElements] : 
+2020-08-04 22:48:46   INFO [libs.ActionWithWebElements] : 
+2020-08-04 22:48:46   INFO [libs.ActionWithWebElements] : 
+2020-08-04 22:48:51   INFO [pages.LoginPage] : Page login was opened
+2020-08-04 22:48:51   INFO [libs.ActionWithWebElements] : 
+2020-08-04 22:48:51   INFO [libs.ActionWithWebElements] : 
+2020-08-04 22:48:52   INFO [libs.ActionWithWebElements] : 
+2020-08-04 22:48:53   INFO [libs.ActionWithWebElements] : 
+2020-08-04 22:48:53   INFO [libs.ActionWithWebElements] : 
+2020-08-04 22:48:54   INFO [libs.ActionWithWebElements] : 
+2020-08-04 22:48:54   INFO [libs.ActionWithWebElements] : 
+2020-08-04 22:59:59   INFO [pages.LoginPage] : Page login was opened
+2020-08-04 22:59:59   INFO [libs.ActionWithWebElements] : 
+2020-08-04 22:59:59   INFO [libs.ActionWithWebElements] : 
+2020-08-04 23:00:00   INFO [libs.ActionWithWebElements] : 
+2020-08-04 23:00:01   INFO [libs.ActionWithWebElements] : 
+2020-08-04 23:00:01   INFO [libs.ActionWithWebElements] : 
+2020-08-04 23:00:02   INFO [libs.ActionWithWebElements] : 
+2020-08-04 23:01:18   INFO [pages.LoginPage] : Page login was opened
+2020-08-04 23:01:19   INFO [libs.ActionWithWebElements] : 
+2020-08-04 23:01:19   INFO [libs.ActionWithWebElements] : 
+2020-08-04 23:01:19   INFO [libs.ActionWithWebElements] : 
+2020-08-04 23:01:20   INFO [libs.ActionWithWebElements] : 
+2020-08-04 23:01:21   INFO [libs.ActionWithWebElements] : 
+2020-08-04 23:01:21   INFO [libs.ActionWithWebElements] : 
+2020-08-04 23:01:44   INFO [pages.LoginPage] : Page login was opened
+2020-08-04 23:01:44   INFO [libs.ActionWithWebElements] : 
+2020-08-04 23:01:44   INFO [libs.ActionWithWebElements] : 
+2020-08-04 23:01:45   INFO [libs.ActionWithWebElements] : 
+2020-08-04 23:01:46   INFO [libs.ActionWithWebElements] : 
+2020-08-04 23:01:46   INFO [libs.ActionWithWebElements] : 
+2020-08-04 23:01:46   INFO [libs.ActionWithWebElements] : 
+2020-08-04 23:02:41   INFO [pages.LoginPage] : Page login was opened
+2020-08-04 23:02:42   INFO [libs.ActionWithWebElements] : 
+2020-08-04 23:02:42   INFO [libs.ActionWithWebElements] : 
+2020-08-04 23:02:44   INFO [libs.ActionWithWebElements] : 
+2020-08-04 23:02:45   INFO [libs.ActionWithWebElements] : 
+2020-08-04 23:02:45   INFO [libs.ActionWithWebElements] : 
+2020-08-04 23:02:46   INFO [libs.ActionWithWebElements] : 

@@ -15,8 +15,8 @@ public class ApparatAddedWithPageObjectTest extends AbstractParentTest {
         apparatAddedPage.inputApparatNumber("823211");
         apparatAddedPage.inputApparatComment("Apparat 928312");
         apparatAddedPage.clickCreateButton();
-        checkExpectedResult("Не удалось найти номер нового аппарата", apparatAddedPage.checkNewApparatNumber("823211"));
-        checkExpectedResult("Не удалось найти комментарий нового аппарата", apparatAddedPage.checkNewApparatComment("Apparat 928312"));
+        checkExpectedResult("Не удалось найти номер нового аппарата", apparatAddedPage.checkNewApparatNumber("1", "823211" ));
+        checkExpectedResult("Не удалось найти комментарий нового аппарата", apparatAddedPage.checkNewApparatComment("2", "Apparat 928312"));
 
     }
 

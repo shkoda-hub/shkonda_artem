@@ -22,6 +22,7 @@ public class AbstractParentTest {
     protected SpareTypesAddedPage spareTypesAddedPage;
     protected SpareAddedPage spareAddedPage;
     protected ProvidersAddedPage providersAddedPage;
+    protected DealTypeAddedPage dealTypeAddedPage;
     protected Utils utils;
     private String pathToScreenShot;
 
@@ -43,6 +44,7 @@ public class AbstractParentTest {
         spareTypesAddedPage = new SpareTypesAddedPage(webDriver);
         spareAddedPage = new SpareAddedPage(webDriver);
         providersAddedPage = new ProvidersAddedPage(webDriver);
+        dealTypeAddedPage = new DealTypeAddedPage(webDriver);
         utils = new Utils();
     }
 

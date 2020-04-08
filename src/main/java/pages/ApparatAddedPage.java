@@ -10,9 +10,6 @@ public class ApparatAddedPage extends ParentPage {
     @FindBy(id = "apparat")
     private WebElement apparatDictionary;
 
-    @FindBy(xpath = "//div[@class = 'box-tools']")
-    private WebElement addButton;
-
     @FindBy(xpath = "//h3[text() = 'Список аппаратов']")
     private WebElement titleApparatGrid;
 
@@ -49,12 +46,12 @@ public class ApparatAddedPage extends ParentPage {
         actionWithWebElements.clickButton(createApparatButton);
     }
 
-    public boolean checkNewApparatNumber(String number){
-        return actionWithWebElements.checkNewAddedElement(number);
+    public boolean checkNewApparatNumber(String idx, String number){
+        return actionWithWebElements.checkNewElement(idx, number);
     }
 
-    public boolean checkNewApparatComment(String comment){
-        return actionWithWebElements.checkNewAddedElement(comment);
+    public boolean checkNewApparatComment(String idx, String comment){
+        return actionWithWebElements.checkNewElement(idx, comment);
     }
 
     public boolean checkApparatAddedForm(){
@@ -64,6 +61,10 @@ public class ApparatAddedPage extends ParentPage {
     public boolean getAlert(){
         return actionWithWebElements.getAlert();
     }
+
+
+
+
 
 
 

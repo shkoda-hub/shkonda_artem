@@ -1,12 +1,10 @@
 package libs;
 
-import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-
+import org.openqa.selenium.Alert;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.Select;
 
 public class ActionWithWebElements {
@@ -14,7 +12,6 @@ public class ActionWithWebElements {
     WebDriver webDriver;
     Logger logger = Logger.getLogger(getClass());
 
-    //By dictionaryList = By.id("dictionary");
 
     public ActionWithWebElements (WebDriver webDriver){
         this.webDriver = webDriver;
@@ -56,8 +53,14 @@ public class ActionWithWebElements {
     }
 
     public boolean checkNewAddedElement(String text){
-        return webDriver.findElement(By.xpath("//td[text() = '"+text+"']")).isDisplayed();
+        return webDriver.findElement(By.xpath("//tr[last()]//td[text() = '"+text+"']")).isDisplayed();
     }
+
+    public boolean checkNewElement(String idx, String text){
+        return webDriver.findElement(By.xpath("//tr[last()]//td["+idx+"][text() = '"+text+"']")).isDisplayed();
+    }
+
+        //tr[last()]//td[text() = '']
 
     public boolean  isElementEnable(WebElement element){
         try{
@@ -123,8 +126,8 @@ public class ActionWithWebElements {
 
     public boolean getAlert(){
         try {
-            Alert alert = webDriver.switchTo().alert();
-            return alert.getText().contains("Заполните это поле.");
+            Thread.sleep(3000);
+            return webDriver.switchTo().alert().getText().toString().contentEquals("Заполните это поле");
         }
         catch (Exception e){
             e.printStackTrace();
@@ -132,6 +135,8 @@ public class ActionWithWebElements {
             return false;
         }
     }
+
+
 
 
 
