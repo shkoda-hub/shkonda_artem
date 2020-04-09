@@ -2,7 +2,9 @@ package suits;
 
 import apparatAddedTests.ApparatAddedWithPageObjectTest;
 import loginTests.LoginWithPageObjectTest;
+import loginTests.LoginWithPageObjectUpperLogin;
 import loginTests.LoginWithPageObjectWrongLogin;
+import loginTests.LoginWithPageObjectWrongPassword;
 import org.junit.runner.RunWith;
 import org.junit.runners.Suite;
 import pages.ApparatAddedPage;
@@ -11,7 +13,9 @@ import pages.ApparatAddedPage;
 @Suite.SuiteClasses(
         {
                 LoginWithPageObjectTest.class,
-                ApparatAddedWithPageObjectTest.class
+                LoginWithPageObjectUpperLogin.class,
+                LoginWithPageObjectWrongLogin.class,
+                LoginWithPageObjectWrongPassword.class
         }
 )
 public class LoginSuit {

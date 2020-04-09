@@ -23,6 +23,7 @@ public class AbstractParentTest {
     protected SpareAddedPage spareAddedPage;
     protected ProvidersAddedPage providersAddedPage;
     protected DealTypeAddedPage dealTypeAddedPage;
+    protected DealsAddedPage dealsAddedPage;
     protected Utils utils;
     private String pathToScreenShot;
 
@@ -45,6 +46,7 @@ public class AbstractParentTest {
         spareAddedPage = new SpareAddedPage(webDriver);
         providersAddedPage = new ProvidersAddedPage(webDriver);
         dealTypeAddedPage = new DealTypeAddedPage(webDriver);
+        dealsAddedPage = new DealsAddedPage(webDriver);
         utils = new Utils();
     }
 
@@ -57,7 +59,6 @@ public class AbstractParentTest {
     public void tearDown(){
         webDriver.quit();
     }
-
 
     protected void checkExpectedResult(String massage, boolean actualResult){
         if (!actualResult == true){
