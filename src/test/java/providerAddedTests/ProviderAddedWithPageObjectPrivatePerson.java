@@ -18,8 +18,8 @@ public class ProviderAddedWithPageObjectPrivatePerson extends AbstractParentTest
         providersAddedPage.setPrivatePersonCheckBox(true);
         providersAddedPage.setIsOurFirmCheckBox(false);
         providersAddedPage.clickCreateButton();
-        checkExpectedResult("", providersAddedPage.checkNewProviderAttribute("TOV Planet34"));
-        checkExpectedResult("", providersAddedPage.checkNewProviderAttribute("Maidan Nezalegnosti 12/1"));
-        checkExpectedResult("", providersAddedPage.checkNewProviderAttribute("+9379992"));
+        checkExpectedResult("", providersAddedPage.checkNewProviderInfo("1","TOV Planet34"));
+        checkExpectedResult("", providersAddedPage.checkNewProviderInfo("2","Maidan Nezalegnosti 12/1"));
+        checkExpectedResult("", providersAddedPage.checkNewProviderInfo("3", "+9379992"));
     }
 }

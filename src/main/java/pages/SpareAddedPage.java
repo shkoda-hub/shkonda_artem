@@ -51,8 +51,8 @@ public class SpareAddedPage extends ParentPage {
         actionWithWebElements.clickButton(createSpareButton);
     }
 
-    public boolean checkNewSpareName(String name){
-        return actionWithWebElements.checkNewAddedElement(name);
+    public boolean checkNewSpareInfo(String idx, String text){
+        return actionWithWebElements.checkNewElement(idx, text);
     }
 
     public boolean checkSpareAddedForm(){

@@ -69,8 +69,8 @@ public class ProvidersAddedPage extends ParentPage {
         actionWithWebElements.clickButton(createProviderButton);
     }
 
-    public boolean checkNewProviderAttribute(String value){
-        return actionWithWebElements.checkNewAddedElement(value);
+    public boolean checkNewProviderInfo(String idx, String text){
+        return actionWithWebElements.checkNewElement(idx, text);
     }
 
     public boolean checkProviderAddedForm(){

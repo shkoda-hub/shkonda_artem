@@ -60,8 +60,8 @@ public class WorkersAddedPage extends ParentPage {
         actionWithWebElements.clickButton(createWorkersButton);
     }
 
-    public boolean checkNewWorkers(String element){
-        return actionWithWebElements.checkNewAddedElement(element);
+    public boolean checkNewWorkersInfo(String idx, String text){
+        return actionWithWebElements.checkNewElement(idx, text);
     }
 
    public boolean checkWorkersAddedForm(){

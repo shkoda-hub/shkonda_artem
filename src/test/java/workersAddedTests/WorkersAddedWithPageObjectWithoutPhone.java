@@ -16,7 +16,7 @@ public class WorkersAddedWithPageObjectWithoutPhone extends AbstractParentTest {
         workersAddedPage.inputWorkerName("Artem11");
         workersAddedPage.inputWorkerMiddleName("Vladimirovich11");
         workersAddedPage.clickCreateButton();
-        checkExpectedResult("Не удалось найти ФИО работника", workersAddedPage.checkNewWorkers("Shkonda11 Artem11 Vladimirovich11"));
+        checkExpectedResult("Не удалось найти ФИО работника", workersAddedPage.checkNewWorkersInfo("1","Shkonda11 Artem11 Vladimirovich11"));
 
     }
 }

@@ -18,7 +18,7 @@ public class ProviderAddedWithPageObjectWithoutPhone extends AbstractParentTest 
         providersAddedPage.setPrivatePersonCheckBox(false);
         providersAddedPage.setIsOurFirmCheckBox(false);
         providersAddedPage.clickCreateButton();
-        checkExpectedResult("", providersAddedPage.checkNewProviderAttribute("TOV 1Planet3"));
-        checkExpectedResult("", providersAddedPage.checkNewProviderAttribute("Maidan Nezalegnosti 12/11"));
+        checkExpectedResult("", providersAddedPage.checkNewProviderInfo("1","TOV 1Planet3"));
+        checkExpectedResult("", providersAddedPage.checkNewProviderInfo("2","Maidan Nezalegnosti 12/11"));
     }
 }

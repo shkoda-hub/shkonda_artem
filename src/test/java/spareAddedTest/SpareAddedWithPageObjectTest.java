@@ -16,7 +16,8 @@ public class SpareAddedWithPageObjectTest extends AbstractParentTest {
         spareAddedPage.inputSpareName("dsa dewe wefw e");
         spareAddedPage.selectSpareType("Spare type 0009102");
         spareAddedPage.clickCreateButton();
-        checkExpectedResult("", spareAddedPage.checkNewSpareName("dsa dewe wefw e"));
+        checkExpectedResult("", spareAddedPage.checkNewSpareInfo("1","dsa dewe wefw e"));
+        checkExpectedResult("", spareAddedPage.checkNewSpareInfo("2","Spare type 0009102"));
     }
 
 }

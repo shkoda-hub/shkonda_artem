@@ -46,12 +46,8 @@ public class ApparatAddedPage extends ParentPage {
         actionWithWebElements.clickButton(createApparatButton);
     }
 
-    public boolean checkNewApparatNumber(String idx, String number){
+    public boolean checkNewApparatInfo(String idx, String number){
         return actionWithWebElements.checkNewElement(idx, number);
-    }
-
-    public boolean checkNewApparatComment(String idx, String comment){
-        return actionWithWebElements.checkNewElement(idx, comment);
     }
 
     public boolean checkApparatAddedForm(){

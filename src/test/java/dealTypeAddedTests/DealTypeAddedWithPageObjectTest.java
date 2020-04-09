@@ -14,6 +14,6 @@ public class DealTypeAddedWithPageObjectTest extends AbstractParentTest {
         dealTypeAddedPage.openDealTypeForm();
         dealTypeAddedPage.inputDealTypeName("Deal with JAVA");
         dealTypeAddedPage.clickCreateButton();
-        checkExpectedResult("", dealTypeAddedPage.checkNewDealTypeName("Deal with JAVA"));
+        checkExpectedResult("", dealTypeAddedPage.checkNewDealTypeInfo("1", "Deal with JAVA"));
     }
 }

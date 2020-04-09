@@ -39,8 +39,8 @@ public class SpareTypesAddedPage extends ParentPage {
         actionWithWebElements.clickButton(createSpareTypeButton);
     }
 
-    public boolean checkNewSpareTypeName(String spareTypeName){
-        return actionWithWebElements.checkNewAddedElement(spareTypeName);
+    public boolean checkNewSpareTypeInfo(String idx, String text){
+        return actionWithWebElements.checkNewElement(idx, text);
     }
 
     public boolean checkSpareTypeAddedForm(){

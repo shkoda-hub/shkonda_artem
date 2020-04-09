@@ -35,8 +35,8 @@ public class DealTypeAddedPage extends ParentPage {
         actionWithWebElements.clickButton(createDealTypeButton);
     }
 
-    public boolean checkNewDealTypeName(String dealTypeName){
-        return actionWithWebElements.checkNewAddedElement(dealTypeName);
+    public boolean checkNewDealTypeInfo(String idx, String name){
+        return actionWithWebElements.checkNewElement(idx, name);
     }
 
     public boolean checkDealTypeAddedForm() {
