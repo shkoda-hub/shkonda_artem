@@ -1,18 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: api.ApiTest
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 0.836 s <<< FAILURE! - in api.ApiTest
-demoQATest(api.ApiTest)  Time elapsed: 0.736 s  <<< ERROR!
-java.lang.NoClassDefFoundError: javax/xml/bind/JAXBException
-	at api.ApiTest.demoQATest(ApiTest.java:56)
-Caused by: java.lang.ClassNotFoundException: javax.xml.bind.JAXBException
-	at api.ApiTest.demoQATest(ApiTest.java:56)
-
-demoQATestAlredyRegistered(api.ApiTest)  Time elapsed: 0 s  <<< ERROR!
-java.lang.NoClassDefFoundError: Could not initialize class io.restassured.RestAssured
-	at api.ApiTest.demoQATestAlredyRegistered(ApiTest.java:82)
-
-privateBankTest(api.ApiTest)  Time elapsed: 0 s  <<< ERROR!
-java.lang.NoClassDefFoundError: Could not initialize class io.restassured.RestAssured
-	at api.ApiTest.privateBankTest(ApiTest.java:22)
-
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 6.919 s - in api.ApiTest

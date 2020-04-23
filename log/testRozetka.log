@@ -1251,3 +1251,360 @@
 2020-10-04 23:48:20   INFO [pages.LoginPage] : Page login was opened
 2020-10-04 23:48:21   INFO [libs.ActionWithWebElements] : 
 2020-10-04 23:48:21   INFO [libs.ActionWithWebElements] : 
+2020-17-04 22:42:35   INFO [pages.LoginPage] : Page login was opened
+2020-17-04 22:42:35   INFO [libs.ActionWithWebElements] : 
+2020-17-04 22:42:35   INFO [libs.ActionWithWebElements] : 
+2020-17-04 22:42:36   INFO [libs.ActionWithWebElements] : 
+2020-17-04 22:42:37   INFO [libs.ActionWithWebElements] : 
+2020-17-04 22:42:37   INFO [libs.ActionWithWebElements] : 
+2020-17-04 22:42:38   INFO [libs.ActionWithWebElements] : 
+2020-17-04 22:44:15   INFO [pages.LoginPage] : Page login was opened
+2020-17-04 22:44:16   INFO [libs.ActionWithWebElements] : 
+2020-17-04 22:44:16   INFO [libs.ActionWithWebElements] : 
+2020-17-04 22:44:16   INFO [libs.ActionWithWebElements] : 
+2020-17-04 22:44:17   INFO [libs.ActionWithWebElements] : 
+2020-17-04 22:44:18   INFO [libs.ActionWithWebElements] : 
+2020-17-04 22:44:18   INFO [libs.ActionWithWebElements] : 
+2020-17-04 22:45:02   INFO [pages.LoginPage] : Page login was opened
+2020-17-04 22:45:02   INFO [libs.ActionWithWebElements] : 
+2020-17-04 22:45:02   INFO [libs.ActionWithWebElements] : 
+2020-17-04 22:45:03   INFO [libs.ActionWithWebElements] : 
+2020-17-04 22:45:04   INFO [libs.ActionWithWebElements] : 
+2020-17-04 22:45:04   INFO [libs.ActionWithWebElements] : 
+2020-17-04 22:45:05   INFO [libs.ActionWithWebElements] : 
+2020-17-04 22:45:42   INFO [pages.LoginPage] : Page login was opened
+2020-17-04 22:45:43   INFO [libs.ActionWithWebElements] : 
+2020-17-04 22:45:43   INFO [libs.ActionWithWebElements] : 
+2020-17-04 22:45:43   INFO [libs.ActionWithWebElements] : 
+2020-17-04 22:45:44   INFO [libs.ActionWithWebElements] : 
+2020-17-04 22:45:45   INFO [libs.ActionWithWebElements] : 
+2020-17-04 22:45:45   INFO [libs.ActionWithWebElements] : 
+2020-17-04 22:45:46   INFO [libs.Utils] : ScreenShot: ..\shkonda_project\target\screenshot\apparatAddedTests\ApparatAddedWithPageObjectTestaddedApparat.jpg
+2020-17-04 22:45:46   INFO [libs.Utils] : ScreenShot: ..\shkonda_project\target\screenshot\apparatAddedTests\ApparatAddedWithPageObjectTestaddedApparat.jpg
+2020-17-04 22:46:55   INFO [pages.LoginPage] : Page login was opened
+2020-17-04 22:46:55   INFO [libs.ActionWithWebElements] : 
+2020-17-04 22:46:55   INFO [libs.ActionWithWebElements] : 
+2020-17-04 22:46:56   INFO [libs.ActionWithWebElements] : 
+2020-17-04 22:46:57   INFO [libs.ActionWithWebElements] : 
+2020-17-04 22:46:57   INFO [libs.ActionWithWebElements] : 
+2020-17-04 22:46:58   INFO [libs.ActionWithWebElements] : 
+2020-17-04 22:47:31   INFO [pages.LoginPage] : Page login was opened
+2020-17-04 22:47:31   INFO [libs.ActionWithWebElements] : 
+2020-17-04 22:47:31   INFO [libs.ActionWithWebElements] : 
+2020-17-04 22:47:32   INFO [libs.ActionWithWebElements] : 
+2020-17-04 22:47:33   INFO [libs.ActionWithWebElements] : 
+2020-17-04 22:47:33   INFO [libs.ActionWithWebElements] : 
+2020-17-04 22:47:34   INFO [libs.ActionWithWebElements] : 
+2020-17-04 22:50:27   INFO [pages.LoginPage] : Page login was opened
+2020-17-04 22:50:27   INFO [libs.ActionWithWebElements] : 
+2020-17-04 22:50:27   INFO [libs.ActionWithWebElements] : 
+2020-17-04 22:50:27   INFO [libs.ActionWithWebElements] : 
+2020-17-04 22:50:58  ERROR [libs.ActionWithWebElements] : 
+2020-17-04 22:50:58   INFO [libs.Utils] : ScreenShot: ..\shkonda_project\target\screenshot\loginTests\LoginWithPageObjectTestvalidLogin.jpg
+2020-17-04 22:52:15   INFO [pages.LoginPage] : Page login was opened
+2020-17-04 22:52:15   INFO [libs.ActionWithWebElements] : 
+2020-17-04 22:52:15   INFO [libs.ActionWithWebElements] : 
+2020-17-04 22:52:16   INFO [libs.ActionWithWebElements] : 
+2020-17-04 22:52:17   INFO [libs.ActionWithWebElements] : 
+2020-17-04 22:52:17   INFO [libs.ActionWithWebElements] : 
+2020-17-04 22:52:18   INFO [libs.ActionWithWebElements] : 
+2020-17-04 23:35:02   INFO [pages.LoginPage] : Page login was opened
+2020-17-04 23:35:02   INFO [libs.ActionWithWebElements] : 
+2020-17-04 23:35:02   INFO [libs.ActionWithWebElements] : 
+2020-17-04 23:35:03   INFO [libs.ActionWithWebElements] : 
+2020-17-04 23:35:04   INFO [libs.ActionWithWebElements] : 
+2020-17-04 23:35:04   INFO [libs.ActionWithWebElements] : 
+2020-17-04 23:35:05   INFO [libs.ActionWithWebElements] : 
+2020-17-04 23:35:46   INFO [pages.LoginPage] : Page login was opened
+2020-17-04 23:35:46   INFO [libs.ActionWithWebElements] : 
+2020-17-04 23:35:46   INFO [libs.ActionWithWebElements] : 
+2020-17-04 23:35:47   INFO [libs.ActionWithWebElements] : 
+2020-17-04 23:35:48   INFO [libs.ActionWithWebElements] : 
+2020-17-04 23:35:48   INFO [libs.ActionWithWebElements] : 
+2020-17-04 23:35:49   INFO [libs.ActionWithWebElements] : 
+2020-17-04 23:35:49   INFO [libs.Utils] : ScreenShot: ..\shkonda_project\target\screenshot\apparatAddedTests\ApparatAddedWithPageObjectTestaddedApparat.jpg
+2020-17-04 23:36:33   INFO [pages.LoginPage] : Page login was opened
+2020-17-04 23:36:34   INFO [libs.ActionWithWebElements] : 
+2020-17-04 23:36:34   INFO [libs.ActionWithWebElements] : 
+2020-17-04 23:36:34   INFO [libs.ActionWithWebElements] : 
+2020-17-04 23:36:36   INFO [libs.ActionWithWebElements] : 
+2020-17-04 23:36:36   INFO [libs.ActionWithWebElements] : 
+2020-17-04 23:36:36   INFO [libs.ActionWithWebElements] : 
+2020-17-04 23:36:37   INFO [libs.Utils] : ScreenShot: ..\shkonda_project\target\screenshot\apparatAddedTests\ApparatAddedWithPageObjectTestaddedApparat.jpg
+2020-17-04 23:39:47   INFO [pages.LoginPage] : Page login was opened
+2020-17-04 23:39:47   INFO [libs.ActionWithWebElements] : 
+2020-17-04 23:39:47   INFO [libs.ActionWithWebElements] : 
+2020-17-04 23:39:48   INFO [libs.ActionWithWebElements] : 
+2020-17-04 23:39:49   INFO [libs.ActionWithWebElements] : 
+2020-17-04 23:39:49   INFO [libs.ActionWithWebElements] : 
+2020-17-04 23:39:50   INFO [libs.ActionWithWebElements] : 
+2020-17-04 23:39:50   INFO [libs.Utils] : ScreenShot: ..\shkonda_project\target\screenshot\apparatAddedTests\ApparatAddedWithPageObjectTestaddedApparat.jpg
+2020-18-04 00:03:01   INFO [pages.LoginPage] : Page login was opened
+2020-18-04 00:03:02   INFO [libs.ActionWithWebElements] : 
+2020-18-04 00:03:02   INFO [libs.ActionWithWebElements] : 
+2020-18-04 00:03:03   INFO [libs.ActionWithWebElements] : 
+2020-18-04 00:03:04   INFO [libs.ActionWithWebElements] : 
+2020-18-04 00:03:04   INFO [libs.ActionWithWebElements] : 
+2020-18-04 00:03:05   INFO [libs.ActionWithWebElements] : 
+2020-18-04 00:03:05   INFO [libs.Utils] : ScreenShot: ..\shkonda_project\target\screenshot\apparatAddedTests\ApparatAddedWithPageObjectTestaddedApparat.jpg
+2020-18-04 00:03:54   INFO [pages.LoginPage] : Page login was opened
+2020-18-04 00:03:54   INFO [libs.ActionWithWebElements] : 
+2020-18-04 00:03:54   INFO [libs.ActionWithWebElements] : 
+2020-18-04 00:03:56   INFO [libs.ActionWithWebElements] : 
+2020-18-04 00:03:57   INFO [libs.ActionWithWebElements] : 
+2020-18-04 00:03:57   INFO [libs.ActionWithWebElements] : 
+2020-18-04 00:03:58   INFO [libs.ActionWithWebElements] : 
+2020-18-04 00:03:58   INFO [libs.Utils] : ScreenShot: ..\shkonda_project\target\screenshot\apparatAddedTests\ApparatAddedWithPageObjectTestaddedApparat.jpg
+2020-18-04 00:05:21   INFO [pages.LoginPage] : Page login was opened
+2020-18-04 00:05:21   INFO [libs.ActionWithWebElements] : 
+2020-18-04 00:05:21   INFO [libs.ActionWithWebElements] : 
+2020-18-04 00:05:22   INFO [libs.ActionWithWebElements] : 
+2020-18-04 00:05:23   INFO [libs.ActionWithWebElements] : 
+2020-18-04 00:05:23   INFO [libs.ActionWithWebElements] : 
+2020-18-04 00:05:23   INFO [libs.ActionWithWebElements] : 
+2020-18-04 00:05:24   INFO [libs.Utils] : ScreenShot: ..\shkonda_project\target\screenshot\apparatAddedTests\ApparatAddedWithPageObjectTestaddedApparat.jpg
+2020-18-04 00:06:01   INFO [pages.LoginPage] : Page login was opened
+2020-18-04 00:06:01   INFO [libs.ActionWithWebElements] : 
+2020-18-04 00:06:02   INFO [libs.ActionWithWebElements] : 
+2020-18-04 00:06:02   INFO [libs.ActionWithWebElements] : 
+2020-18-04 00:06:03   INFO [libs.ActionWithWebElements] : 
+2020-18-04 00:06:03   INFO [libs.ActionWithWebElements] : 
+2020-18-04 00:06:04   INFO [libs.ActionWithWebElements] : 
+2020-18-04 00:07:33   INFO [pages.LoginPage] : Page login was opened
+2020-18-04 00:07:33   INFO [libs.ActionWithWebElements] : 
+2020-18-04 00:07:33   INFO [libs.ActionWithWebElements] : 
+2020-18-04 00:07:34   INFO [libs.ActionWithWebElements] : 
+2020-18-04 00:07:35   INFO [libs.ActionWithWebElements] : 
+2020-18-04 00:07:35   INFO [libs.ActionWithWebElements] : 
+2020-18-04 00:07:35   INFO [libs.ActionWithWebElements] : 
+2020-18-04 00:07:36   INFO [libs.Utils] : ScreenShot: ..\shkonda_project\target\screenshot\apparatAddedTests\ApparatAddedWithPageObjectTestaddedApparat.jpg
+2020-18-04 00:08:17   INFO [pages.LoginPage] : Page login was opened
+2020-18-04 00:08:17   INFO [libs.ActionWithWebElements] : 
+2020-18-04 00:08:17   INFO [libs.ActionWithWebElements] : 
+2020-18-04 00:08:18   INFO [libs.ActionWithWebElements] : 
+2020-18-04 00:08:19   INFO [libs.ActionWithWebElements] : 
+2020-18-04 00:08:19   INFO [libs.ActionWithWebElements] : 
+2020-18-04 00:08:20   INFO [libs.ActionWithWebElements] : 
+2020-18-04 00:08:20   INFO [libs.Utils] : ScreenShot: ..\shkonda_project\target\screenshot\apparatAddedTests\ApparatAddedWithPageObjectTestaddedApparat.jpg
+2020-18-04 00:10:16   INFO [pages.LoginPage] : Page login was opened
+2020-18-04 00:10:16   INFO [libs.ActionWithWebElements] : 
+2020-18-04 00:10:16   INFO [libs.ActionWithWebElements] : 
+2020-18-04 00:10:17   INFO [libs.ActionWithWebElements] : 
+2020-18-04 00:10:18   INFO [libs.ActionWithWebElements] : 
+2020-18-04 00:10:18   INFO [libs.ActionWithWebElements] : 
+2020-18-04 00:10:19   INFO [libs.ActionWithWebElements] : 
+2020-18-04 00:10:59   INFO [pages.LoginPage] : Page login was opened
+2020-18-04 00:10:59   INFO [libs.ActionWithWebElements] : 
+2020-18-04 00:10:59   INFO [libs.ActionWithWebElements] : 
+2020-18-04 00:11:00   INFO [libs.ActionWithWebElements] : 
+2020-18-04 00:11:01   INFO [libs.ActionWithWebElements] : 
+2020-18-04 00:11:01   INFO [libs.ActionWithWebElements] : 
+2020-18-04 00:11:02   INFO [libs.ActionWithWebElements] : 
+2020-18-04 00:12:25   INFO [pages.LoginPage] : Page login was opened
+2020-18-04 00:12:26   INFO [libs.ActionWithWebElements] : 
+2020-18-04 00:12:26   INFO [libs.ActionWithWebElements] : 
+2020-18-04 00:12:26   INFO [libs.ActionWithWebElements] : 
+2020-18-04 00:12:27   INFO [libs.ActionWithWebElements] : 
+2020-18-04 00:12:28   INFO [libs.ActionWithWebElements] : 
+2020-18-04 00:12:28   INFO [libs.ActionWithWebElements] : 
+2020-18-04 00:13:16   INFO [pages.LoginPage] : Page login was opened
+2020-18-04 00:13:16   INFO [libs.ActionWithWebElements] : 
+2020-18-04 00:13:16   INFO [libs.ActionWithWebElements] : 
+2020-18-04 00:13:17   INFO [libs.ActionWithWebElements] : 
+2020-18-04 00:13:18   INFO [libs.ActionWithWebElements] : 
+2020-18-04 00:13:18   INFO [libs.ActionWithWebElements] : 
+2020-18-04 00:13:19   INFO [libs.ActionWithWebElements] : 
+2020-18-04 00:14:04   INFO [pages.LoginPage] : Page login was opened
+2020-18-04 00:14:04   INFO [libs.ActionWithWebElements] : 
+2020-18-04 00:14:04   INFO [libs.ActionWithWebElements] : 
+2020-18-04 00:14:05   INFO [libs.ActionWithWebElements] : 
+2020-18-04 00:14:06   INFO [libs.ActionWithWebElements] : 
+2020-18-04 00:14:06   INFO [libs.ActionWithWebElements] : 
+2020-18-04 00:14:07   INFO [libs.ActionWithWebElements] : 
+2020-18-04 00:15:09   INFO [pages.LoginPage] : Page login was opened
+2020-18-04 00:15:09   INFO [libs.ActionWithWebElements] : 
+2020-18-04 00:15:09   INFO [libs.ActionWithWebElements] : 
+2020-18-04 00:15:10   INFO [libs.ActionWithWebElements] : 
+2020-18-04 00:15:11   INFO [libs.ActionWithWebElements] : 
+2020-18-04 00:15:11   INFO [libs.ActionWithWebElements] : 
+2020-18-04 00:15:12   INFO [libs.ActionWithWebElements] : 
+2020-18-04 00:15:12   INFO [libs.Utils] : ScreenShot: ..\shkonda_project\target\screenshot\apparatAddedTests\ApparatAddedWithPageObjectTestaddedApparat.jpg
+2020-18-04 00:15:53   INFO [pages.LoginPage] : Page login was opened
+2020-18-04 00:15:53   INFO [libs.ActionWithWebElements] : 
+2020-18-04 00:15:53   INFO [libs.ActionWithWebElements] : 
+2020-18-04 00:15:54   INFO [libs.ActionWithWebElements] : 
+2020-18-04 00:15:55   INFO [libs.ActionWithWebElements] : 
+2020-18-04 00:15:55   INFO [libs.ActionWithWebElements] : 
+2020-18-04 00:15:56   INFO [libs.ActionWithWebElements] : 
+2020-18-04 00:16:51   INFO [pages.LoginPage] : Page login was opened
+2020-18-04 00:16:51   INFO [libs.ActionWithWebElements] : 
+2020-18-04 00:16:51   INFO [libs.ActionWithWebElements] : 
+2020-18-04 00:16:52   INFO [libs.ActionWithWebElements] : 
+2020-18-04 00:16:53   INFO [libs.ActionWithWebElements] : 
+2020-18-04 00:16:53   INFO [libs.ActionWithWebElements] : 
+2020-18-04 00:16:54   INFO [libs.ActionWithWebElements] : 
+2020-18-04 00:17:55   INFO [pages.LoginPage] : Page login was opened
+2020-18-04 00:17:55   INFO [libs.ActionWithWebElements] : 
+2020-18-04 00:17:55   INFO [libs.ActionWithWebElements] : 
+2020-18-04 00:17:56   INFO [libs.ActionWithWebElements] : 
+2020-18-04 00:17:57   INFO [libs.ActionWithWebElements] : 
+2020-18-04 00:17:57   INFO [libs.ActionWithWebElements] : 
+2020-18-04 00:17:57   INFO [libs.ActionWithWebElements] : 
+2020-18-04 00:17:58   INFO [libs.Utils] : ScreenShot: ..\shkonda_project\target\screenshot\apparatAddedTests\ApparatAddedWithPageObjectTestaddedApparat.jpg
+2020-18-04 18:07:18   INFO [pages.LoginPage] : Page login was opened
+2020-18-04 18:07:18   INFO [libs.ActionWithWebElements] : 
+2020-18-04 18:07:18   INFO [libs.ActionWithWebElements] : 
+2020-18-04 18:07:19   INFO [libs.ActionWithWebElements] : 
+2020-18-04 18:07:20   INFO [libs.ActionWithWebElements] : 
+2020-18-04 18:07:20   INFO [libs.ActionWithWebElements] : 
+2020-18-04 18:07:20   INFO [libs.ActionWithWebElements] : 
+2020-18-04 18:09:37   INFO [pages.LoginPage] : Page login was opened
+2020-18-04 18:09:37   INFO [libs.ActionWithWebElements] : 
+2020-18-04 18:09:37   INFO [libs.ActionWithWebElements] : 
+2020-18-04 18:09:38   INFO [libs.ActionWithWebElements] : 
+2020-18-04 18:09:39   INFO [libs.ActionWithWebElements] : 
+2020-18-04 18:09:39   INFO [libs.ActionWithWebElements] : 
+2020-18-04 18:09:40   INFO [libs.ActionWithWebElements] : 
+2020-18-04 18:09:40   INFO [libs.Utils] : ScreenShot: ..\shkonda_project\target\screenshot\apparatAddedTests\ApparatAddedWithPageObjectTestaddedApparat.jpg
+2020-18-04 18:10:04   INFO [pages.LoginPage] : Page login was opened
+2020-18-04 18:10:04   INFO [libs.ActionWithWebElements] : 
+2020-18-04 18:10:04   INFO [libs.ActionWithWebElements] : 
+2020-18-04 18:10:05   INFO [libs.ActionWithWebElements] : 
+2020-18-04 18:10:06   INFO [libs.ActionWithWebElements] : 
+2020-18-04 18:10:06   INFO [libs.ActionWithWebElements] : 
+2020-18-04 18:10:07   INFO [libs.ActionWithWebElements] : 
+2020-18-04 18:19:25   INFO [pages.LoginPage] : Page login was opened
+2020-18-04 18:19:25   INFO [libs.ActionWithWebElements] : 
+2020-18-04 18:19:25   INFO [libs.ActionWithWebElements] : 
+2020-18-04 18:19:26   INFO [libs.ActionWithWebElements] : 
+2020-18-04 18:19:27   INFO [libs.ActionWithWebElements] : 
+2020-18-04 18:19:27   INFO [libs.ActionWithWebElements] : 
+2020-18-04 18:19:28   INFO [libs.ActionWithWebElements] : 
+2020-18-04 18:19:28   INFO [libs.Utils] : ScreenShot: ..\shkonda_project\target\screenshot\apparatAddedTests\ApparatAddedWithPageObjectTestaddedApparat.jpg
+2020-19-04 18:30:16   INFO [pages.LoginPage] : Page login was opened
+2020-19-04 18:30:16   INFO [libs.ActionWithWebElements] : Значение 'Student' было записано в поле [[ChromeDriver: chrome on WINDOWS (8df31726e7f4a0c2ad8925fe2c8c4bcf)] -> name: _username]
+2020-19-04 18:30:16   INFO [libs.ActionWithWebElements] : Значение '909090' было записано в поле [[ChromeDriver: chrome on WINDOWS (8df31726e7f4a0c2ad8925fe2c8c4bcf)] -> name: _password]
+2020-19-04 18:30:22   INFO [libs.ActionWithWebElements] : Клик на элемент 'Proxy element for: DefaultElementLocator 'By.xpath: //button[@type = 'submit']'' был совершен
+2020-19-04 18:30:22   INFO [libs.ActionWithWebElements] : Клик на элемент '[[ChromeDriver: chrome on WINDOWS (8df31726e7f4a0c2ad8925fe2c8c4bcf)] -> id: dictionary]' был совершен
+2020-19-04 18:30:23   INFO [libs.ActionWithWebElements] : Клик на элемент '[[ChromeDriver: chrome on WINDOWS (8df31726e7f4a0c2ad8925fe2c8c4bcf)] -> id: apparat]' был совершен
+2020-19-04 18:30:28   INFO [libs.ActionWithWebElements] : Клик на элемент 'Proxy element for: DefaultElementLocator 'By.className: box-tools'' был совершен
+2020-19-04 18:30:29   INFO [libs.ActionWithWebElements] : Значение '823211' было записано в поле [[ChromeDriver: chrome on WINDOWS (8df31726e7f4a0c2ad8925fe2c8c4bcf)] -> id: apparat_apparatNumber]
+2020-19-04 18:30:29   INFO [libs.ActionWithWebElements] : Значение 'Apparat 928312' было записано в поле [[ChromeDriver: chrome on WINDOWS (8df31726e7f4a0c2ad8925fe2c8c4bcf)] -> id: apparat_apparatComment]
+2020-19-04 18:30:35   INFO [libs.ActionWithWebElements] : Клик на элемент 'Proxy element for: DefaultElementLocator 'By.name: add'' был совершен
+2020-19-04 18:32:52   INFO [pages.LoginPage] : Page login was opened
+2020-19-04 18:32:52   INFO [libs.ActionWithWebElements] : Значение 'Student' было записано в поле [[ChromeDriver: chrome on WINDOWS (cd211d0756a10ec4926f61b6b086577e)] -> name: _username]
+2020-19-04 18:32:52   INFO [libs.ActionWithWebElements] : Значение '909090' было записано в поле [[ChromeDriver: chrome on WINDOWS (cd211d0756a10ec4926f61b6b086577e)] -> name: _password]
+2020-19-04 18:32:53   INFO [libs.ActionWithWebElements] : Клик на элемент 'Proxy element for: DefaultElementLocator 'By.xpath: //button[@type = 'submit']'' был совершен
+2020-19-04 18:32:53   INFO [libs.ActionWithWebElements] : Клик на элемент '[[ChromeDriver: chrome on WINDOWS (cd211d0756a10ec4926f61b6b086577e)] -> id: dictionary]' был совершен
+2020-19-04 18:32:55   INFO [libs.ActionWithWebElements] : Клик на элемент '[[ChromeDriver: chrome on WINDOWS (cd211d0756a10ec4926f61b6b086577e)] -> id: apparat]' был совершен
+2020-19-04 18:32:56   INFO [libs.ActionWithWebElements] : Клик на элемент 'Proxy element for: DefaultElementLocator 'By.className: box-tools'' был совершен
+2020-19-04 18:32:56   INFO [libs.ActionWithWebElements] : Значение '823211' было записано в поле [[ChromeDriver: chrome on WINDOWS (cd211d0756a10ec4926f61b6b086577e)] -> id: apparat_apparatNumber]
+2020-19-04 18:32:56   INFO [libs.ActionWithWebElements] : Значение 'Apparat 928312' было записано в поле [[ChromeDriver: chrome on WINDOWS (cd211d0756a10ec4926f61b6b086577e)] -> id: apparat_apparatComment]
+2020-19-04 18:32:58   INFO [libs.ActionWithWebElements] : Клик на элемент 'Proxy element for: DefaultElementLocator 'By.name: add'' был совершен
+2020-19-04 18:33:39   INFO [pages.LoginPage] : Page login was opened
+2020-19-04 18:33:39   INFO [libs.ActionWithWebElements] : Значение 'Student' было записано в поле [[ChromeDriver: chrome on WINDOWS (3661d84a9fdcf7e2bf1a43bbff112605)] -> name: _username]
+2020-19-04 18:33:39   INFO [libs.ActionWithWebElements] : Значение '909090' было записано в поле [[ChromeDriver: chrome on WINDOWS (3661d84a9fdcf7e2bf1a43bbff112605)] -> name: _password]
+2020-19-04 18:33:50   INFO [libs.ActionWithWebElements] : Клик на элемент 'Proxy element for: DefaultElementLocator 'By.xpath: //button[@type = 'submit']'' был совершен
+2020-19-04 18:33:50   INFO [libs.ActionWithWebElements] : Клик на элемент '[[ChromeDriver: chrome on WINDOWS (3661d84a9fdcf7e2bf1a43bbff112605)] -> id: dictionary]' был совершен
+2020-19-04 18:33:50   INFO [libs.ActionWithWebElements] : Клик на элемент '[[ChromeDriver: chrome on WINDOWS (3661d84a9fdcf7e2bf1a43bbff112605)] -> id: apparat]' был совершен
+2020-19-04 18:34:01   INFO [libs.ActionWithWebElements] : Клик на элемент 'Proxy element for: DefaultElementLocator 'By.className: box-tools'' был совершен
+2020-19-04 18:34:01   INFO [libs.ActionWithWebElements] : Значение '823211' было записано в поле [[ChromeDriver: chrome on WINDOWS (3661d84a9fdcf7e2bf1a43bbff112605)] -> id: apparat_apparatNumber]
+2020-19-04 18:34:01   INFO [libs.ActionWithWebElements] : Значение 'Apparat 928312' было записано в поле [[ChromeDriver: chrome on WINDOWS (3661d84a9fdcf7e2bf1a43bbff112605)] -> id: apparat_apparatComment]
+2020-19-04 18:34:12   INFO [libs.ActionWithWebElements] : Клик на элемент 'Proxy element for: DefaultElementLocator 'By.name: add'' был совершен
+2020-19-04 18:35:27   INFO [pages.LoginPage] : Page login was opened
+2020-19-04 18:35:27   INFO [libs.ActionWithWebElements] : Значение 'Student' было записано в поле [[ChromeDriver: chrome on WINDOWS (eea44e8cebcc2454e84e748fc6353a19)] -> name: _username]
+2020-19-04 18:35:28   INFO [libs.ActionWithWebElements] : Значение '909090' было записано в поле [[ChromeDriver: chrome on WINDOWS (eea44e8cebcc2454e84e748fc6353a19)] -> name: _password]
+2020-19-04 18:35:38   INFO [libs.ActionWithWebElements] : Клик на элемент 'Proxy element for: DefaultElementLocator 'By.xpath: //button[@type = 'submit']'' был совершен
+2020-19-04 18:35:38   INFO [libs.ActionWithWebElements] : Клик на элемент '[[ChromeDriver: chrome on WINDOWS (eea44e8cebcc2454e84e748fc6353a19)] -> id: dictionary]' был совершен
+2020-19-04 18:35:39   INFO [libs.ActionWithWebElements] : Клик на элемент '[[ChromeDriver: chrome on WINDOWS (eea44e8cebcc2454e84e748fc6353a19)] -> id: apparat]' был совершен
+2020-19-04 18:35:50   INFO [libs.ActionWithWebElements] : Клик на элемент 'Proxy element for: DefaultElementLocator 'By.className: box-tools'' был совершен
+2020-19-04 18:36:00  ERROR [libs.ActionWithWebElements] : Текст не был записан
+2020-19-04 18:36:00   INFO [libs.ActionWithWebElements] : Значение 'Apparat 928312' было записано в поле [[ChromeDriver: chrome on WINDOWS (eea44e8cebcc2454e84e748fc6353a19)] -> id: apparat_apparatComment]
+2020-19-04 18:36:00   INFO [libs.ActionWithWebElements] : Клик на элемент '[[ChromeDriver: chrome on WINDOWS (eea44e8cebcc2454e84e748fc6353a19)] -> name: add]' был совершен
+2020-19-04 18:36:20  ERROR [libs.ActionWithWebElements] : Текст '823211 Apparat 928312' не отображается в элементе Proxy element for: DefaultElementLocator 'By.xpath: //tr[last()][td]'
+2020-19-04 18:36:21   INFO [libs.Utils] : ScreenShot: ..\shkonda_project\target\screenshot\apparatAddedTests\ApparatAddedWithPageObjectTestaddedApparat.jpg
+2020-19-04 18:48:46   INFO [pages.LoginPage] : Page login was opened
+2020-19-04 18:48:46   INFO [libs.ActionWithWebElements] : Значение 'Student' было записано в поле [[ChromeDriver: chrome on WINDOWS (24e1452d68bea9a6edfef09ada431b26)] -> name: _username]
+2020-19-04 18:48:47   INFO [libs.ActionWithWebElements] : Значение '909090' было записано в поле [[ChromeDriver: chrome on WINDOWS (24e1452d68bea9a6edfef09ada431b26)] -> name: _password]
+2020-19-04 18:48:57   INFO [libs.ActionWithWebElements] : Клик на элемент 'Proxy element for: DefaultElementLocator 'By.xpath: //button[@type = 'submit']'' был совершен
+2020-19-04 18:49:02   INFO [libs.ActionWithWebElements] : Клик на элемент '[[ChromeDriver: chrome on WINDOWS (24e1452d68bea9a6edfef09ada431b26)] -> id: dictionary]' был совершен
+2020-19-04 18:49:08   INFO [libs.ActionWithWebElements] : Клик на элемент '[[ChromeDriver: chrome on WINDOWS (24e1452d68bea9a6edfef09ada431b26)] -> id: apparat]' был совершен
+2020-19-04 18:49:13   INFO [libs.ActionWithWebElements] : Клик на элемент '[[ChromeDriver: chrome on WINDOWS (24e1452d68bea9a6edfef09ada431b26)] -> class name: box-tools]' был совершен
+2020-19-04 18:49:23  ERROR [libs.ActionWithWebElements] : Текст не был записан
+2020-19-04 18:49:33  ERROR [libs.ActionWithWebElements] : Текст не был записан
+2020-19-04 18:50:03   INFO [pages.LoginPage] : Page login was opened
+2020-19-04 18:50:03   INFO [libs.ActionWithWebElements] : Значение 'Student' было записано в поле (608, 242)
+2020-19-04 18:50:03   INFO [libs.ActionWithWebElements] : Значение '909090' было записано в поле (608, 291)
+2020-19-04 18:50:15   INFO [libs.ActionWithWebElements] : Клик на элемент 'Proxy element for: DefaultElementLocator 'By.xpath: //button[@type = 'submit']'' был совершен
+2020-19-04 18:50:15   INFO [libs.ActionWithWebElements] : Клик на элемент '[[ChromeDriver: chrome on WINDOWS (4a5089aeb6428f49d0797aeb986a68bf)] -> id: dictionary]' был совершен
+2020-19-04 18:50:15   INFO [libs.ActionWithWebElements] : Клик на элемент '[[ChromeDriver: chrome on WINDOWS (4a5089aeb6428f49d0797aeb986a68bf)] -> id: apparat]' был совершен
+2020-19-04 18:50:26   INFO [libs.ActionWithWebElements] : Клик на элемент 'Proxy element for: DefaultElementLocator 'By.className: box-tools'' был совершен
+2020-19-04 18:50:26   INFO [libs.ActionWithWebElements] : Значение '823211' было записано в поле (462, 150)
+2020-19-04 18:50:26   INFO [libs.ActionWithWebElements] : Значение 'Apparat 928312' было записано в поле (462, 199)
+2020-19-04 18:50:37   INFO [libs.ActionWithWebElements] : Клик на элемент 'Proxy element for: DefaultElementLocator 'By.name: add'' был совершен
+2020-19-04 18:51:50   INFO [pages.LoginPage] : Page login was opened
+2020-19-04 18:51:50   INFO [libs.ActionWithWebElements] : Значение 'Student' было записано в поле input
+2020-19-04 18:51:50   INFO [libs.ActionWithWebElements] : Значение '909090' было записано в поле input
+2020-19-04 18:52:01   INFO [libs.ActionWithWebElements] : Клик на элемент 'Proxy element for: DefaultElementLocator 'By.xpath: //button[@type = 'submit']'' был совершен
+2020-19-04 18:52:01   INFO [libs.ActionWithWebElements] : Клик на элемент '[[ChromeDriver: chrome on WINDOWS (2c33b25d01adfcb238e342f73b97eeca)] -> id: dictionary]' был совершен
+2020-19-04 18:52:01   INFO [libs.ActionWithWebElements] : Клик на элемент '[[ChromeDriver: chrome on WINDOWS (2c33b25d01adfcb238e342f73b97eeca)] -> id: apparat]' был совершен
+2020-19-04 18:52:12   INFO [libs.ActionWithWebElements] : Клик на элемент 'Proxy element for: DefaultElementLocator 'By.className: box-tools'' был совершен
+2020-19-04 18:52:12   INFO [libs.ActionWithWebElements] : Значение '823211' было записано в поле input
+2020-19-04 18:52:12   INFO [libs.ActionWithWebElements] : Значение 'Apparat 928312' было записано в поле input
+2020-19-04 18:52:23   INFO [libs.ActionWithWebElements] : Клик на элемент 'Proxy element for: DefaultElementLocator 'By.name: add'' был совершен
+2020-19-04 18:57:05   INFO [pages.LoginPage] : Page login was opened
+2020-19-04 18:57:06   INFO [libs.ActionWithWebElements] : Значение 'Student' было записано в поле
+2020-19-04 18:57:06   INFO [libs.ActionWithWebElements] : Значение '909090' было записано в поле
+2020-19-04 18:57:07   INFO [libs.ActionWithWebElements] : Клик на элемент
+2020-19-04 18:57:07   INFO [libs.ActionWithWebElements] : Клик на элемент
+2020-19-04 18:57:07   INFO [libs.ActionWithWebElements] : Клик на элемент
+2020-19-04 18:57:07   INFO [libs.ActionWithWebElements] : Клик на элемент
+2020-19-04 18:57:08   INFO [libs.ActionWithWebElements] : Значение '823211' было записано в поле
+2020-19-04 18:57:08   INFO [libs.ActionWithWebElements] : Значение 'Apparat 928312' было записано в поле
+2020-19-04 18:57:08   INFO [libs.ActionWithWebElements] : Клик на элемент
+2020-19-04 19:01:12   INFO [pages.LoginPage] : Page login was opened
+2020-19-04 19:01:12   INFO [libs.ActionWithWebElements] : Значение 'Student' было записано в поле
+2020-19-04 19:01:12   INFO [libs.ActionWithWebElements] : Значение '909090' было записано в поле
+2020-19-04 19:01:13   INFO [libs.ActionWithWebElements] : Клик на элемент
+2020-19-04 19:01:13   INFO [libs.ActionWithWebElements] : Клик на элемент
+2020-19-04 19:01:13   INFO [libs.ActionWithWebElements] : Клик на элемент
+2020-19-04 19:01:14   INFO [libs.ActionWithWebElements] : Клик на элемент
+2020-19-04 19:01:14   INFO [libs.ActionWithWebElements] : Значение '823211' было записано в поле
+2020-19-04 19:01:14   INFO [libs.ActionWithWebElements] : Значение 'Apparat 928312' было записано в поле
+2020-19-04 19:01:15   INFO [libs.ActionWithWebElements] : Клик на элемент
+2020-19-04 19:03:24   INFO [pages.LoginPage] : Page login was opened
+2020-19-04 19:03:24   INFO [libs.ActionWithWebElements] : Значение 'Student' было записано в поле
+2020-19-04 19:03:24   INFO [libs.ActionWithWebElements] : Значение '909090' было записано в поле
+2020-19-04 19:03:35   INFO [libs.ActionWithWebElements] : Клик на элементProxy element for: DefaultElementLocator 'By.xpath: //button[@type = 'submit']'
+2020-19-04 19:03:54   INFO [pages.LoginPage] : Page login was opened
+2020-19-04 19:03:54   INFO [libs.ActionWithWebElements] : Значение 'Student' было записано в поле
+2020-19-04 19:03:54   INFO [libs.ActionWithWebElements] : Значение '909090' было записано в поле
+2020-19-04 19:03:55   INFO [libs.ActionWithWebElements] : Клик на элемент
+2020-19-04 19:03:55   INFO [libs.ActionWithWebElements] : Клик на элемент
+2020-19-04 19:03:55   INFO [libs.ActionWithWebElements] : Клик на элемент
+2020-19-04 19:03:55   INFO [libs.ActionWithWebElements] : Клик на элемент
+2020-19-04 19:03:56   INFO [libs.ActionWithWebElements] : Значение '823211' было записано в поле
+2020-19-04 19:03:56   INFO [libs.ActionWithWebElements] : Значение 'Apparat 928312' было записано в поле
+2020-19-04 19:03:56   INFO [libs.ActionWithWebElements] : Клик на элемент
+2020-19-04 19:10:16   INFO [pages.LoginPage] : Page login was opened
+2020-19-04 19:10:16   INFO [libs.ActionWithWebElements] : Значение 'Student' было записано в поле[[ChromeDriver: chrome on WINDOWS (756d3bd0b84e7317e2dd2833490175cb)] -> name: _username]
+2020-19-04 19:10:16   INFO [libs.ActionWithWebElements] : Значение '909090' было записано в поле[[ChromeDriver: chrome on WINDOWS (756d3bd0b84e7317e2dd2833490175cb)] -> name: _password]
+2020-19-04 19:10:29   INFO [libs.ActionWithWebElements] : Клик на элементProxy element for: DefaultElementLocator 'By.xpath: //button[@type = 'submit']'
+2020-19-04 19:10:29   INFO [libs.ActionWithWebElements] : Клик на элемент[[ChromeDriver: chrome on WINDOWS (756d3bd0b84e7317e2dd2833490175cb)] -> id: dictionary]
+2020-19-04 19:10:30   INFO [libs.ActionWithWebElements] : Клик на элемент[[ChromeDriver: chrome on WINDOWS (756d3bd0b84e7317e2dd2833490175cb)] -> id: apparat]
+2020-19-04 19:12:51   INFO [pages.LoginPage] : Page login was opened
+2020-19-04 19:12:51   INFO [libs.ActionWithWebElements] : Значение 'Student' было записано в поле
+2020-19-04 19:12:51   INFO [libs.ActionWithWebElements] : Значение '909090' было записано в поле
+2020-19-04 19:13:12  ERROR [libs.ActionWithWebElements] : Не удалось кликнуть на 'Proxy element for: DefaultElementLocator 'By.xpath: //button[@type = 'submit']''
+2020-19-04 19:13:12   INFO [libs.ActionWithWebElements] : Клик на элементli
+2020-19-04 19:13:13   INFO [libs.ActionWithWebElements] : Клик на элементli
+2020-19-04 19:13:45   INFO [pages.LoginPage] : Page login was opened
+2020-19-04 19:13:45   INFO [libs.ActionWithWebElements] : Значение 'Student' было записано в поле
+2020-19-04 19:13:45   INFO [libs.ActionWithWebElements] : Значение '909090' было записано в поле
+2020-19-04 19:13:46   INFO [libs.ActionWithWebElements] : Клик на элемент
+2020-19-04 19:13:46   INFO [libs.ActionWithWebElements] : Клик на элемент
+2020-19-04 19:13:47   INFO [libs.ActionWithWebElements] : Клик на элемент
+2020-19-04 19:13:47   INFO [libs.ActionWithWebElements] : Клик на элемент
+2020-19-04 19:13:47   INFO [libs.ActionWithWebElements] : Значение '823211' было записано в поле
+2020-19-04 19:13:47   INFO [libs.ActionWithWebElements] : Значение 'Apparat 928312' было записано в поле
+2020-19-04 19:13:48   INFO [libs.ActionWithWebElements] : Клик на элемент

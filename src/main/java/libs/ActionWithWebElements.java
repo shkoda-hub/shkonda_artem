@@ -1,12 +1,9 @@
 package libs;
 
-import org.openqa.selenium.By;
+
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.Alert;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.ui.ExpectedCondition;
-import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
@@ -28,47 +25,38 @@ public class ActionWithWebElements {
         try {
             element.clear();
             element.sendKeys(text);
-            logger.info("");
+            logger.info("Значение '"+text+"' было записано в поле");
         }
         catch (Exception e){
             e.printStackTrace();
-            logger.error("");
+            logger.error("Текст не был записан");
 
         }
 
     }
     public void clickButton(WebElement element){
         try{
+            //webDriverWait_10.until(ExpectedConditions.elementToBeClickable(element));
             element.click();
-            logger.info("");
+            logger.info("Клик на элемент");
         }
         catch (Exception e){
             e.printStackTrace();
-            logger.error("");
+            logger.error("Не удалось кликнуть на '"+element+"'");
         }
     }
-//
+
     public boolean isElementDisplay(WebElement element){
         try {
-            webDriverWait_15.until(ExpectedConditions.visibilityOf(element));
+            //webDriverWait_15.until(ExpectedConditions.visibilityOf(element));
             return element.isDisplayed();
         }
         catch (Exception e){
             e.printStackTrace();
-            logger.error("");
+            logger.error("Элемент '"+element+"' не был найден");
             return false;
         }
     }
-
-    public boolean checkNewAddedElement(String text){
-        return webDriver.findElement(By.xpath("//tr[last()]//td[text() = '"+text+"']")).isDisplayed();
-    }
-
-    public boolean checkNewElement(String idx, String text){
-        return webDriver.findElement(By.xpath("//tr[last()]//td["+idx+"][text() = '"+text+"']")).isDisplayed();
-    }
-
-        //tr[last()]//td[text() = '']
 
     public boolean  isElementEnable(WebElement element){
         try{
@@ -88,11 +76,11 @@ public class ActionWithWebElements {
             else {
                 element.click();
             }
-            logger.info("The check box is "+state);
+            logger.info("Чек-бокс '"+element+"' в состоянии "+state);
         }
         catch (Exception e){
             e.printStackTrace();
-            logger.error("");
+            logger.error("Не удаловс перевести чек-бокс '"+element+"' в состояние "+state);
         }
     }
 
@@ -100,6 +88,7 @@ public class ActionWithWebElements {
         Select dropDownValue = new Select(element);
         try {
             dropDownValue.selectByVisibleText(itemName);
+            logger.info("Значение '"+itemName+"' было выбрано в списке");
         }
         catch (Exception e){
             e.printStackTrace();
@@ -108,34 +97,22 @@ public class ActionWithWebElements {
 
     }
 
-    public void openDictionaryPage(WebElement dictionaryList, WebElement dictionary){
+    public boolean isTextDisplayedInElement(WebElement element, String text){
         try {
-            dictionaryList.click();
-            dictionary.click();
-            logger.info("");
+            String elementText = element.getText();
+            return elementText.contains(text);
         }
         catch (Exception e){
             e.printStackTrace();
-            logger.error("");
+            logger.error("Текст '"+text+"' не отображается в элементе");
+            return false;
         }
     }
 
-    public void openDictionaryAddedForm(WebElement dictionary) {
+    /*public boolean getAlert(){
         try {
-            webDriver.findElement(By.id("dictionary")).click();
-            dictionary.click();
-            webDriver.findElement(By.xpath("//div[@class = 'box-tools']")).click();
-        }
-        catch (Exception e){
-            e.printStackTrace();
-            logger.error("");
-        }
-    }
-
-    public boolean getAlert(){
-        try {
-            Thread.sleep(3000);
-            return webDriver.switchTo().alert().getText().toString().contentEquals("Заполните это поле");
+            webDriverWait_10.until(ExpectedConditions.alertIsPresent());
+            return webDriver.switchTo().alert().getText().contains("Заполните это поле");
         }
         catch (Exception e){
             e.printStackTrace();
@@ -143,6 +120,8 @@ public class ActionWithWebElements {
             return false;
         }
     }
+
+     */
 
 
 

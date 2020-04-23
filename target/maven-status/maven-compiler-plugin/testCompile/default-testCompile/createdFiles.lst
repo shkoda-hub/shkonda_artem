@@ -32,6 +32,7 @@ qa_automation\AppTest.class
 suits\DealTypeAddedSuit.class
 loginTests\UnValidLoginTestWithPageObjectWithExcel.class
 loginTests\LoginWithPageObjectWrongLogin.class
+apparatAddedTests\ApparatAddedWithPageObjectTestWithExcel.class
 loginTests\LoginWithPageObjectUpperLogin.class
 workersAddedTests\WorkersAddedWithPageObjectWithoutPhone.class
 testDB\TestDataBase.class
